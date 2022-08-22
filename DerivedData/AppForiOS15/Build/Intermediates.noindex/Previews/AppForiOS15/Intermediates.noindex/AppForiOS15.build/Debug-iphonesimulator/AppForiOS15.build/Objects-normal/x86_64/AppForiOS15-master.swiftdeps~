@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "86febb6a29c6a17aff98fc94217fce896629dbc4c98cad471c786bd96b14b59b"
+build_start_time: [1660814650, 305446147]
+build_end_time: [1660814654, 146986007]
+inputs:
+  "/Users/wangjie/Desktop/AppForiOS15/AppForiOS15/AppForiOS15App.swift": [1660814618, 284559488]
+  "/Users/wangjie/Desktop/AppForiOS15/AppForiOS15/ContentView.swift": [1660814618, 289575099]

@@ -1,0 +1,437 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "AppForiOS15"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "AppForiOS15"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "AppForiOS15"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11AppForiOS1511ContentViewV4bodyQrvp",
+          "mangledName": "$s11AppForiOS1511ContentViewV4bodyQrvp",
+          "moduleName": "AppForiOS15",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11AppForiOS1511ContentViewV4bodyQrvg",
+              "mangledName": "$s11AppForiOS1511ContentViewV4bodyQrvg",
+              "moduleName": "AppForiOS15",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "AppForiOS15.ContentView",
+              "usr": "s:11AppForiOS1511ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11AppForiOS1511ContentViewVACycfc",
+          "mangledName": "$s11AppForiOS1511ContentViewVACycfc",
+          "moduleName": "AppForiOS15",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11AppForiOS1511ContentViewV",
+      "mangledName": "$s11AppForiOS1511ContentViewV",
+      "moduleName": "AppForiOS15",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView_Previews",
+      "printedName": "ContentView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11AppForiOS1520ContentView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s11AppForiOS1520ContentView_PreviewsV8previewsQrvpZ",
+          "moduleName": "AppForiOS15",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11AppForiOS1520ContentView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s11AppForiOS1520ContentView_PreviewsV8previewsQrvgZ",
+              "moduleName": "AppForiOS15",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView_Previews",
+              "printedName": "AppForiOS15.ContentView_Previews",
+              "usr": "s:11AppForiOS1520ContentView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11AppForiOS1520ContentView_PreviewsVACycfc",
+          "mangledName": "$s11AppForiOS1520ContentView_PreviewsVACycfc",
+          "moduleName": "AppForiOS15",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11AppForiOS1520ContentView_PreviewsV",
+      "mangledName": "$s11AppForiOS1520ContentView_PreviewsV",
+      "moduleName": "AppForiOS15",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "AppForiOS15"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "AppForiOS15"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "AppForiOS15"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppForiOS15App",
+      "printedName": "AppForiOS15App",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowGroup",
+              "printedName": "SwiftUI.WindowGroup<AppForiOS15.ContentView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView",
+                  "printedName": "AppForiOS15.ContentView",
+                  "usr": "s:11AppForiOS1511ContentViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI11WindowGroupV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11AppForiOS150abcA0V4bodyQrvp",
+          "mangledName": "$s11AppForiOS150abcA0V4bodyQrvp",
+          "moduleName": "AppForiOS15",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<AppForiOS15.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "AppForiOS15.ContentView",
+                      "usr": "s:11AppForiOS1511ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11AppForiOS150abcA0V4bodyQrvg",
+              "mangledName": "$s11AppForiOS150abcA0V4bodyQrvg",
+              "moduleName": "AppForiOS15",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11AppForiOS150abcA0V5$mainyyFZ",
+          "mangledName": "$s11AppForiOS150abcA0V5$mainyyFZ",
+          "moduleName": "AppForiOS15",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppForiOS15App",
+              "printedName": "AppForiOS15.AppForiOS15App",
+              "usr": "s:11AppForiOS150abcA0V"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11AppForiOS150abcA0VACycfc",
+          "mangledName": "$s11AppForiOS150abcA0VACycfc",
+          "moduleName": "AppForiOS15",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11AppForiOS150abcA0V",
+      "mangledName": "$s11AppForiOS150abcA0V",
+      "moduleName": "AppForiOS15",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<AppForiOS15.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "AppForiOS15.ContentView",
+                      "usr": "s:11AppForiOS1511ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
