@@ -6,6 +6,244 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>27214A54-9291-4031-9972-3560C77C50FB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>27214A54-9291-4031-9972-3560C77C50FB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DesignCodeIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DesignCodeIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run DesignCodeIOS</string>
+			<key>timeStartedRecording</key>
+			<real>683454477.36925495</real>
+			<key>timeStoppedRecording</key>
+			<real>683454511.52156198</real>
+			<key>title</key>
+			<string>Run DesignCodeIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>27214A54-9291-4031-9972-3560C77C50FB</string>
+		</dict>
+		<key>7FE1F68C-6F0A-4A82-98E4-8B99C00DB010</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>7FE1F68C-6F0A-4A82-98E4-8B99C00DB010.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DesignCodeIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DesignCodeIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run DesignCodeIOS</string>
+			<key>timeStartedRecording</key>
+			<real>683450529.19780302</real>
+			<key>timeStoppedRecording</key>
+			<real>683454472.51795995</real>
+			<key>title</key>
+			<string>Run DesignCodeIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>7FE1F68C-6F0A-4A82-98E4-8B99C00DB010</string>
+		</dict>
+		<key>A2042FED-B04E-4C52-9BB7-0D2802BC9DB3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A2042FED-B04E-4C52-9BB7-0D2802BC9DB3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DesignCodeIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DesignCodeIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run DesignCodeIOS</string>
+			<key>timeStartedRecording</key>
+			<real>683434391.40531504</real>
+			<key>timeStoppedRecording</key>
+			<real>683434402.602934</real>
+			<key>title</key>
+			<string>Run DesignCodeIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>A2042FED-B04E-4C52-9BB7-0D2802BC9DB3</string>
+		</dict>
+		<key>A2EB3629-8F97-4F87-A154-024AF6EF6FC5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A2EB3629-8F97-4F87-A154-024AF6EF6FC5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DesignCodeIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DesignCodeIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run DesignCodeIOS</string>
+			<key>timeStartedRecording</key>
+			<real>683435313.19999695</real>
+			<key>timeStoppedRecording</key>
+			<real>683450527.60154402</real>
+			<key>title</key>
+			<string>Run DesignCodeIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>A2EB3629-8F97-4F87-A154-024AF6EF6FC5</string>
+		</dict>
+		<key>B350BC8B-9DAF-4727-AE75-532E9A25BEC8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B350BC8B-9DAF-4727-AE75-532E9A25BEC8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DesignCodeIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DesignCodeIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run DesignCodeIOS</string>
+			<key>timeStartedRecording</key>
+			<real>683435300.82716799</real>
+			<key>timeStoppedRecording</key>
+			<real>683435311.69415295</real>
+			<key>title</key>
+			<string>Run DesignCodeIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>B350BC8B-9DAF-4727-AE75-532E9A25BEC8</string>
+		</dict>
+		<key>D74F507E-0826-445E-B8AE-2D2FCB935C24</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D74F507E-0826-445E-B8AE-2D2FCB935C24.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DesignCodeIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DesignCodeIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run DesignCodeIOS</string>
+			<key>timeStartedRecording</key>
+			<real>683434827.56612098</real>
+			<key>timeStoppedRecording</key>
+			<real>683434828.18070304</real>
+			<key>title</key>
+			<string>Run DesignCodeIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>D74F507E-0826-445E-B8AE-2D2FCB935C24</string>
+		</dict>
+		<key>DEB68F00-B7A0-4CD7-97A1-3E4E22EE3169</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DEB68F00-B7A0-4CD7-97A1-3E4E22EE3169.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DesignCodeIOS project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DesignCodeIOS</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run DesignCodeIOS</string>
+			<key>timeStartedRecording</key>
+			<real>683431306.48570395</real>
+			<key>timeStoppedRecording</key>
+			<real>683434387.17021298</real>
+			<key>title</key>
+			<string>Run DesignCodeIOS</string>
+			<key>uniqueIdentifier</key>
+			<string>DEB68F00-B7A0-4CD7-97A1-3E4E22EE3169</string>
+		</dict>
 		<key>FA848A01-EBC1-4410-9ABF-4A7AFC132B44</key>
 		<dict>
 			<key>className</key>

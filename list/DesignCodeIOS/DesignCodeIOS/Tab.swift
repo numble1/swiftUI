@@ -26,6 +26,14 @@ enum Tab: String{
 }
 
 
+struct TabPreferenceKey: PreferenceKey {
+    static var defaultValue: CGFloat = 0
+    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
+        value = nextValue()
+    }
+}
+
+
 var items = [
     TabItem(text: "Learn Now", icon: "house", tab: .firstPage, color: .teal),
     TabItem(text: "Explore", icon: "magnifyingglass", tab: .secondPage, color: .blue),

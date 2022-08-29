@@ -15,6 +15,7 @@
 		A0995BDA28B36DD400E441F7 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995BD928B36DD400E441F7 /* AccountView.swift */; };
 		A0995BDC28B386D200E441F7 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995BDB28B386D200E441F7 /* SecondView.swift */; };
 		A0995BDE28B386DB00E441F7 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995BDD28B386DB00E441F7 /* Styles.swift */; };
+		A0ECF7CB28BC55BE00F62880 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECF7CA28BC55BE00F62880 /* TabView.swift */; };
 		A0F6765128B46F37000DC9DE /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6765028B46F37000DC9DE /* HexagonView.swift */; };
 		A0F6765328B47E1E000DC9DE /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6765228B47E1E000DC9DE /* BlobView.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		A0995BD928B36DD400E441F7 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		A0995BDB28B386D200E441F7 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		A0995BDD28B386DB00E441F7 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		A0ECF7CA28BC55BE00F62880 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		A0F6765028B46F37000DC9DE /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
 		A0F6765228B47E1E000DC9DE /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 				A0995BDD28B386DB00E441F7 /* Styles.swift */,
 				A0995BDB28B386D200E441F7 /* SecondView.swift */,
 				A05CC3C728B766F20045A0FB /* Tab.swift */,
+				A0ECF7CA28BC55BE00F62880 /* TabView.swift */,
 				A0995BCF28B36D7A00E441F7 /* Assets.xcassets */,
 				A0995BD128B36D7A00E441F7 /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 				A0995BDC28B386D200E441F7 /* SecondView.swift in Sources */,
 				A0995BCC28B36D7900E441F7 /* DesignCodeIOSApp.swift in Sources */,
 				A0F6765128B46F37000DC9DE /* HexagonView.swift in Sources */,
+				A0ECF7CB28BC55BE00F62880 /* TabView.swift in Sources */,
 				A0F6765328B47E1E000DC9DE /* BlobView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
