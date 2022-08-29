@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "86febb6a29c6a17aff98fc94217fce896629dbc4c98cad471c786bd96b14b59b"
+build_start_time: [1661414832, 136939048]
+build_end_time: [1661414833, 267667055]
+inputs:
+  "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/AccountView.swift": [1661243070, 866233587]
+  "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/BlobView.swift": [1661243956, 940438747]
+  "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/ContentView.swift": [1661155994, 883945465]
+  "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/DesignCodeIOSApp.swift": [1661154809, 496159315]
+  "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/HexagonView.swift": [1661222780, 351356983]
+  "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/SecondView.swift": [1661161452, 766826629]
+  "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Styles.swift": [1661140051, 842441082]

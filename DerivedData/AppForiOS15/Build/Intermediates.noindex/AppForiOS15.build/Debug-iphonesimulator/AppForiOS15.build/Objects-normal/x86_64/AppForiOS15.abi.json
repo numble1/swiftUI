@@ -26,6 +26,319 @@
     },
     {
       "kind": "TypeDecl",
+      "name": "StrokeStyle",
+      "printedName": "StrokeStyle",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "colorScheme",
+          "printedName": "colorScheme",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ColorScheme",
+              "printedName": "SwiftUI.ColorScheme",
+              "usr": "s:7SwiftUI11ColorSchemeO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11AppForiOS1511StrokeStyleV11colorScheme7SwiftUI05ColorG0Ovp",
+          "mangledName": "$s11AppForiOS1511StrokeStyleV11colorScheme7SwiftUI05ColorG0Ovp",
+          "moduleName": "AppForiOS15",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColorScheme",
+                  "printedName": "SwiftUI.ColorScheme",
+                  "usr": "s:7SwiftUI11ColorSchemeO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11AppForiOS1511StrokeStyleV11colorScheme7SwiftUI05ColorG0Ovg",
+              "mangledName": "$s11AppForiOS1511StrokeStyleV11colorScheme7SwiftUI05ColorG0Ovg",
+              "moduleName": "AppForiOS15",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_colorScheme",
+          "printedName": "_colorScheme",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Environment",
+              "printedName": "SwiftUI.Environment<SwiftUI.ColorScheme>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColorScheme",
+                  "printedName": "SwiftUI.ColorScheme",
+                  "usr": "s:7SwiftUI11ColorSchemeO"
+                }
+              ],
+              "usr": "s:7SwiftUI11EnvironmentV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11AppForiOS1511StrokeStyleV12_colorScheme33_79D3E582D01BFC13D1B2D2D221A5E0BALL7SwiftUI11EnvironmentVyAF05ColorG0OGvp",
+          "mangledName": "$s11AppForiOS1511StrokeStyleV12_colorScheme33_79D3E582D01BFC13D1B2D2D221A5E0BALL7SwiftUI11EnvironmentVyAF05ColorG0OGvp",
+          "moduleName": "AppForiOS15",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "cornerRadius",
+          "printedName": "cornerRadius",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11AppForiOS1511StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s11AppForiOS1511StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvp",
+          "moduleName": "AppForiOS15",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11AppForiOS1511StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s11AppForiOS1511StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvg",
+              "moduleName": "AppForiOS15",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11AppForiOS1511StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s11AppForiOS1511StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvs",
+              "moduleName": "AppForiOS15",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11AppForiOS1511StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s11AppForiOS1511StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvM",
+              "moduleName": "AppForiOS15",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "body",
+          "printedName": "body(content:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "_ViewModifier_Content",
+              "printedName": "SwiftUI._ViewModifier_Content<AppForiOS15.StrokeStyle>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StrokeStyle",
+                  "printedName": "AppForiOS15.StrokeStyle",
+                  "usr": "s:11AppForiOS1511StrokeStyleV"
+                }
+              ],
+              "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11AppForiOS1511StrokeStyleV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
+          "mangledName": "$s11AppForiOS1511StrokeStyleV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
+          "moduleName": "AppForiOS15",
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(colorScheme:cornerRadius:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "StrokeStyle",
+              "printedName": "AppForiOS15.StrokeStyle",
+              "usr": "s:11AppForiOS1511StrokeStyleV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Environment",
+              "printedName": "SwiftUI.Environment<SwiftUI.ColorScheme>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColorScheme",
+                  "printedName": "SwiftUI.ColorScheme",
+                  "usr": "s:7SwiftUI11ColorSchemeO"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:7SwiftUI11EnvironmentV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11AppForiOS1511StrokeStyleV11colorScheme12cornerRadiusAC7SwiftUI11EnvironmentVyAF05ColorG0OG_12CoreGraphics7CGFloatVtcfc",
+          "mangledName": "$s11AppForiOS1511StrokeStyleV11colorScheme12cornerRadiusAC7SwiftUI11EnvironmentVyAF05ColorG0OG_12CoreGraphics7CGFloatVtcfc",
+          "moduleName": "AppForiOS15",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11AppForiOS1511StrokeStyleV",
+      "mangledName": "$s11AppForiOS1511StrokeStyleV",
+      "moduleName": "AppForiOS15",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ViewModifier",
+          "printedName": "ViewModifier",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI12ViewModifierP",
+          "mangledName": "$s7SwiftUI12ViewModifierP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "AppForiOS15"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "AppForiOS15"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "AppForiOS15"
+    },
+    {
+      "kind": "TypeDecl",
       "name": "ContentView",
       "printedName": "ContentView",
       "children": [
@@ -158,9 +471,37 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "ContentView",
-              "printedName": "AppForiOS15.ContentView",
-              "usr": "s:11AppForiOS1511ContentViewV"
+              "name": "TupleView",
+              "printedName": "SwiftUI.TupleView<(AppForiOS15.ContentView, some SwiftUI.View)>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tuple",
+                  "printedName": "(AppForiOS15.ContentView, some SwiftUI.View)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "AppForiOS15.ContentView",
+                      "usr": "s:11AppForiOS1511ContentViewV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "OpaqueTypeArchetype",
+                      "printedName": "some SwiftUI.View",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "View",
+                          "printedName": "SwiftUI.View",
+                          "usr": "s:7SwiftUI4ViewP"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:7SwiftUI9TupleViewV"
             }
           ],
           "declKind": "Var",
@@ -179,9 +520,37 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "ContentView",
-                  "printedName": "AppForiOS15.ContentView",
-                  "usr": "s:11AppForiOS1511ContentViewV"
+                  "name": "TupleView",
+                  "printedName": "SwiftUI.TupleView<(AppForiOS15.ContentView, some SwiftUI.View)>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(AppForiOS15.ContentView, some SwiftUI.View)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ContentView",
+                          "printedName": "AppForiOS15.ContentView",
+                          "usr": "s:11AppForiOS1511ContentViewV"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "OpaqueTypeArchetype",
+                          "printedName": "some SwiftUI.View",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "View",
+                              "printedName": "SwiftUI.View",
+                              "usr": "s:7SwiftUI4ViewP"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:7SwiftUI9TupleViewV"
                 }
               ],
               "declKind": "Accessor",
@@ -243,9 +612,37 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "ContentView",
-                  "printedName": "AppForiOS15.ContentView",
-                  "usr": "s:11AppForiOS1511ContentViewV"
+                  "name": "TupleView",
+                  "printedName": "SwiftUI.TupleView<(AppForiOS15.ContentView, some SwiftUI.View)>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(AppForiOS15.ContentView, some SwiftUI.View)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ContentView",
+                          "printedName": "AppForiOS15.ContentView",
+                          "usr": "s:11AppForiOS1511ContentViewV"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "OpaqueTypeArchetype",
+                          "printedName": "some SwiftUI.View",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "View",
+                              "printedName": "SwiftUI.View",
+                              "usr": "s:7SwiftUI4ViewP"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:7SwiftUI9TupleViewV"
                 }
               ]
             }
@@ -432,6 +829,71 @@
           "mangledName": "$ss8SendableP"
         }
       ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "View",
+      "printedName": "View",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "strokeStyle",
+          "printedName": "strokeStyle(cornerRadius:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ModifiedContent",
+              "printedName": "SwiftUI.ModifiedContent<τ_0_0, AppForiOS15.StrokeStyle>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "StrokeStyle",
+                  "printedName": "AppForiOS15.StrokeStyle",
+                  "usr": "s:11AppForiOS1511StrokeStyleV"
+                }
+              ],
+              "usr": "s:7SwiftUI15ModifiedContentV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "hasDefaultArg": true,
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7SwiftUI4ViewP11AppForiOS15E11strokeStyle12cornerRadiusQr12CoreGraphics7CGFloatV_tF",
+          "mangledName": "$s7SwiftUI4ViewP11AppForiOS15E11strokeStyle12cornerRadiusQr12CoreGraphics7CGFloatV_tF",
+          "moduleName": "AppForiOS15",
+          "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+          "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:7SwiftUI4ViewP",
+      "mangledName": "$s7SwiftUI4ViewP",
+      "moduleName": "SwiftUI",
+      "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+      "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+      "intro_Macosx": "10.15",
+      "intro_iOS": "13.0",
+      "intro_tvOS": "13.0",
+      "intro_watchOS": "6.0",
+      "declAttributes": [
+        "TypeEraser",
+        "Available",
+        "Available",
+        "Available",
+        "Available"
+      ],
+      "isExternal": true
     }
   ],
   "json_format_version": 6

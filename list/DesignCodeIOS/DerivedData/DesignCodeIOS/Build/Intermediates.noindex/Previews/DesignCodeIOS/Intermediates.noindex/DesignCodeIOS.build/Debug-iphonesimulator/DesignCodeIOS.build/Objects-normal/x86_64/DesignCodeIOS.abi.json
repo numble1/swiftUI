@@ -1,0 +1,3080 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AccountView",
+      "printedName": "AccountView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "isDeleted",
+          "printedName": "isDeleted",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV9isDeletedSbvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV9isDeletedSbvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV9isDeletedSbvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV9isDeletedSbvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV9isDeletedSbvs",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV9isDeletedSbvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV9isDeletedSbvM",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV9isDeletedSbvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$isDeleted",
+          "printedName": "$isDeleted",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV10$isDeleted7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV10$isDeleted7SwiftUI7BindingVySbGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV10$isDeleted7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV10$isDeleted7SwiftUI7BindingVySbGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_isDeleted",
+          "printedName": "_isDeleted",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV10_isDeleted33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV10_isDeleted33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV10_isDeleted33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV10_isDeleted33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV10_isDeleted33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV10_isDeleted33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV10_isDeleted33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV10_isDeleted33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "showPin",
+          "printedName": "showPin",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV7showPinSbvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV7showPinSbvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV7showPinSbvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV7showPinSbvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV7showPinSbvs",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV7showPinSbvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV7showPinSbvM",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV7showPinSbvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$showPin",
+          "printedName": "$showPin",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV8$showPin7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV8$showPin7SwiftUI7BindingVySbGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV8$showPin7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV8$showPin7SwiftUI7BindingVySbGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_showPin",
+          "printedName": "_showPin",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV8_showPin33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV8_showPin33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV8_showPin33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV8_showPin33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV8_showPin33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV8_showPin33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV8_showPin33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV8_showPin33_6238845ECDCB71681242B01EAEF58BCALL7SwiftUI5StateVySbGvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV4bodyQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV4bodyQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "profile",
+          "printedName": "profile",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV7profileQrvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV7profileQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV7profileQrvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV7profileQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "section1",
+          "printedName": "section1",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV8section1Qrvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV8section1Qrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV8section1Qrvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV8section1Qrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "section2",
+          "printedName": "section2",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV8section2Qrvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV8section2Qrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV8section2Qrvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV8section2Qrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "toggleButton",
+          "printedName": "toggleButton",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11AccountViewV12toggleButtonQrvp",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV12toggleButtonQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11AccountViewV12toggleButtonQrvg",
+              "mangledName": "$s13DesignCodeIOS11AccountViewV12toggleButtonQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AccountView",
+              "printedName": "DesignCodeIOS.AccountView",
+              "usr": "s:13DesignCodeIOS11AccountViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS11AccountViewVACycfc",
+          "mangledName": "$s13DesignCodeIOS11AccountViewVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(isDeleted:showPin:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AccountView",
+              "printedName": "DesignCodeIOS.AccountView",
+              "usr": "s:13DesignCodeIOS11AccountViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS11AccountViewV9isDeleted7showPinACSb_Sbtcfc",
+          "mangledName": "$s13DesignCodeIOS11AccountViewV9isDeleted7showPinACSb_Sbtcfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS11AccountViewV",
+      "mangledName": "$s13DesignCodeIOS11AccountViewV",
+      "moduleName": "DesignCodeIOS",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AccountView_Previews",
+      "printedName": "AccountView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS20AccountView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13DesignCodeIOS20AccountView_PreviewsV8previewsQrvpZ",
+          "moduleName": "DesignCodeIOS",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS20AccountView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13DesignCodeIOS20AccountView_PreviewsV8previewsQrvgZ",
+              "moduleName": "DesignCodeIOS",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AccountView_Previews",
+              "printedName": "DesignCodeIOS.AccountView_Previews",
+              "usr": "s:13DesignCodeIOS20AccountView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS20AccountView_PreviewsVACycfc",
+          "mangledName": "$s13DesignCodeIOS20AccountView_PreviewsVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS20AccountView_PreviewsV",
+      "mangledName": "$s13DesignCodeIOS20AccountView_PreviewsV",
+      "moduleName": "DesignCodeIOS",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "StrokeStyle",
+      "printedName": "StrokeStyle",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "colorScheme",
+          "printedName": "colorScheme",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ColorScheme",
+              "printedName": "SwiftUI.ColorScheme",
+              "usr": "s:7SwiftUI11ColorSchemeO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11StrokeStyleV11colorScheme7SwiftUI05ColorG0Ovp",
+          "mangledName": "$s13DesignCodeIOS11StrokeStyleV11colorScheme7SwiftUI05ColorG0Ovp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColorScheme",
+                  "printedName": "SwiftUI.ColorScheme",
+                  "usr": "s:7SwiftUI11ColorSchemeO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11StrokeStyleV11colorScheme7SwiftUI05ColorG0Ovg",
+              "mangledName": "$s13DesignCodeIOS11StrokeStyleV11colorScheme7SwiftUI05ColorG0Ovg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_colorScheme",
+          "printedName": "_colorScheme",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Environment",
+              "printedName": "SwiftUI.Environment<SwiftUI.ColorScheme>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColorScheme",
+                  "printedName": "SwiftUI.ColorScheme",
+                  "usr": "s:7SwiftUI11ColorSchemeO"
+                }
+              ],
+              "usr": "s:7SwiftUI11EnvironmentV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11StrokeStyleV12_colorScheme33_0A9C74A703D1C2E04DA483750D16B89ELL7SwiftUI11EnvironmentVyAF05ColorG0OGvp",
+          "mangledName": "$s13DesignCodeIOS11StrokeStyleV12_colorScheme33_0A9C74A703D1C2E04DA483750D16B89ELL7SwiftUI11EnvironmentVyAF05ColorG0OGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Environment",
+                  "printedName": "SwiftUI.Environment<SwiftUI.ColorScheme>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ColorScheme",
+                      "printedName": "SwiftUI.ColorScheme",
+                      "usr": "s:7SwiftUI11ColorSchemeO"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11EnvironmentV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11StrokeStyleV12_colorScheme33_0A9C74A703D1C2E04DA483750D16B89ELL7SwiftUI11EnvironmentVyAF05ColorG0OGvg",
+              "mangledName": "$s13DesignCodeIOS11StrokeStyleV12_colorScheme33_0A9C74A703D1C2E04DA483750D16B89ELL7SwiftUI11EnvironmentVyAF05ColorG0OGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Environment",
+                  "printedName": "SwiftUI.Environment<SwiftUI.ColorScheme>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ColorScheme",
+                      "printedName": "SwiftUI.ColorScheme",
+                      "usr": "s:7SwiftUI11ColorSchemeO"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11EnvironmentV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11StrokeStyleV12_colorScheme33_0A9C74A703D1C2E04DA483750D16B89ELL7SwiftUI11EnvironmentVyAF05ColorG0OGvs",
+              "mangledName": "$s13DesignCodeIOS11StrokeStyleV12_colorScheme33_0A9C74A703D1C2E04DA483750D16B89ELL7SwiftUI11EnvironmentVyAF05ColorG0OGvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11StrokeStyleV12_colorScheme33_0A9C74A703D1C2E04DA483750D16B89ELL7SwiftUI11EnvironmentVyAF05ColorG0OGvM",
+              "mangledName": "$s13DesignCodeIOS11StrokeStyleV12_colorScheme33_0A9C74A703D1C2E04DA483750D16B89ELL7SwiftUI11EnvironmentVyAF05ColorG0OGvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "cornerRadius",
+          "printedName": "cornerRadius",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s13DesignCodeIOS11StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s13DesignCodeIOS11StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CGFloat",
+                  "printedName": "CoreGraphics.CGFloat",
+                  "usr": "s:12CoreGraphics7CGFloatV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s13DesignCodeIOS11StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s13DesignCodeIOS11StrokeStyleV12cornerRadius12CoreGraphics7CGFloatVvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "body",
+          "printedName": "body(content:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "_ViewModifier_Content",
+              "printedName": "SwiftUI._ViewModifier_Content<DesignCodeIOS.StrokeStyle>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "StrokeStyle",
+                  "printedName": "DesignCodeIOS.StrokeStyle",
+                  "usr": "s:13DesignCodeIOS11StrokeStyleV"
+                }
+              ],
+              "usr": "s:7SwiftUI21_ViewModifier_ContentV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13DesignCodeIOS11StrokeStyleV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
+          "mangledName": "$s13DesignCodeIOS11StrokeStyleV4body7contentQr7SwiftUI21_ViewModifier_ContentVyACG_tF",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(colorScheme:cornerRadius:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "StrokeStyle",
+              "printedName": "DesignCodeIOS.StrokeStyle",
+              "usr": "s:13DesignCodeIOS11StrokeStyleV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Environment",
+              "printedName": "SwiftUI.Environment<SwiftUI.ColorScheme>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ColorScheme",
+                  "printedName": "SwiftUI.ColorScheme",
+                  "usr": "s:7SwiftUI11ColorSchemeO"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:7SwiftUI11EnvironmentV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS11StrokeStyleV11colorScheme12cornerRadiusAC7SwiftUI11EnvironmentVyAF05ColorG0OG_12CoreGraphics7CGFloatVtcfc",
+          "mangledName": "$s13DesignCodeIOS11StrokeStyleV11colorScheme12cornerRadiusAC7SwiftUI11EnvironmentVyAF05ColorG0OG_12CoreGraphics7CGFloatVtcfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS11StrokeStyleV",
+      "mangledName": "$s13DesignCodeIOS11StrokeStyleV",
+      "moduleName": "DesignCodeIOS",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ViewModifier",
+          "printedName": "ViewModifier",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI12ViewModifierP",
+          "mangledName": "$s7SwiftUI12ViewModifierP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11ContentViewV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS11ContentViewV4bodyQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV4bodyQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "DesignCodeIOS.ContentView",
+              "usr": "s:13DesignCodeIOS11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS11ContentViewVACycfc",
+          "mangledName": "$s13DesignCodeIOS11ContentViewVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS11ContentViewV",
+      "mangledName": "$s13DesignCodeIOS11ContentViewV",
+      "moduleName": "DesignCodeIOS",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView_Previews",
+      "printedName": "ContentView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS20ContentView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13DesignCodeIOS20ContentView_PreviewsV8previewsQrvpZ",
+          "moduleName": "DesignCodeIOS",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS20ContentView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13DesignCodeIOS20ContentView_PreviewsV8previewsQrvgZ",
+              "moduleName": "DesignCodeIOS",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView_Previews",
+              "printedName": "DesignCodeIOS.ContentView_Previews",
+              "usr": "s:13DesignCodeIOS20ContentView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS20ContentView_PreviewsVACycfc",
+          "mangledName": "$s13DesignCodeIOS20ContentView_PreviewsVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS20ContentView_PreviewsV",
+      "mangledName": "$s13DesignCodeIOS20ContentView_PreviewsV",
+      "moduleName": "DesignCodeIOS",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SecondView",
+      "printedName": "SecondView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS10SecondViewV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS10SecondViewV4bodyQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS10SecondViewV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS10SecondViewV4bodyQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SecondView",
+              "printedName": "DesignCodeIOS.SecondView",
+              "usr": "s:13DesignCodeIOS10SecondViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS10SecondViewVACycfc",
+          "mangledName": "$s13DesignCodeIOS10SecondViewVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS10SecondViewV",
+      "mangledName": "$s13DesignCodeIOS10SecondViewV",
+      "moduleName": "DesignCodeIOS",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SecondView_Previews",
+      "printedName": "SecondView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS19SecondView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13DesignCodeIOS19SecondView_PreviewsV8previewsQrvpZ",
+          "moduleName": "DesignCodeIOS",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS19SecondView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13DesignCodeIOS19SecondView_PreviewsV8previewsQrvgZ",
+              "moduleName": "DesignCodeIOS",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SecondView_Previews",
+              "printedName": "DesignCodeIOS.SecondView_Previews",
+              "usr": "s:13DesignCodeIOS19SecondView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS19SecondView_PreviewsVACycfc",
+          "mangledName": "$s13DesignCodeIOS19SecondView_PreviewsVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS19SecondView_PreviewsV",
+      "mangledName": "$s13DesignCodeIOS19SecondView_PreviewsV",
+      "moduleName": "DesignCodeIOS",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DesignCodeIOSApp",
+      "printedName": "DesignCodeIOSApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowGroup",
+              "printedName": "SwiftUI.WindowGroup<DesignCodeIOS.ContentView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView",
+                  "printedName": "DesignCodeIOS.ContentView",
+                  "usr": "s:13DesignCodeIOS11ContentViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI11WindowGroupV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS0aB6IOSAppV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS0aB6IOSAppV4bodyQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<DesignCodeIOS.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "DesignCodeIOS.ContentView",
+                      "usr": "s:13DesignCodeIOS11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS0aB6IOSAppV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS0aB6IOSAppV4bodyQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13DesignCodeIOS0aB6IOSAppV5$mainyyFZ",
+          "mangledName": "$s13DesignCodeIOS0aB6IOSAppV5$mainyyFZ",
+          "moduleName": "DesignCodeIOS",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DesignCodeIOSApp",
+              "printedName": "DesignCodeIOS.DesignCodeIOSApp",
+              "usr": "s:13DesignCodeIOS0aB6IOSAppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS0aB6IOSAppVACycfc",
+          "mangledName": "$s13DesignCodeIOS0aB6IOSAppVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS0aB6IOSAppV",
+      "mangledName": "$s13DesignCodeIOS0aB6IOSAppV",
+      "moduleName": "DesignCodeIOS",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<DesignCodeIOS.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "DesignCodeIOS.ContentView",
+                      "usr": "s:13DesignCodeIOS11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HexagonView",
+      "printedName": "HexagonView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11HexagonViewV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS11HexagonViewV4bodyQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11HexagonViewV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS11HexagonViewV4bodyQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HexagonView",
+              "printedName": "DesignCodeIOS.HexagonView",
+              "usr": "s:13DesignCodeIOS11HexagonViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS11HexagonViewVACycfc",
+          "mangledName": "$s13DesignCodeIOS11HexagonViewVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS11HexagonViewV",
+      "mangledName": "$s13DesignCodeIOS11HexagonViewV",
+      "moduleName": "DesignCodeIOS",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HexagonView_Previews",
+      "printedName": "HexagonView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS20HexagonView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13DesignCodeIOS20HexagonView_PreviewsV8previewsQrvpZ",
+          "moduleName": "DesignCodeIOS",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS20HexagonView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13DesignCodeIOS20HexagonView_PreviewsV8previewsQrvgZ",
+              "moduleName": "DesignCodeIOS",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HexagonView_Previews",
+              "printedName": "DesignCodeIOS.HexagonView_Previews",
+              "usr": "s:13DesignCodeIOS20HexagonView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS20HexagonView_PreviewsVACycfc",
+          "mangledName": "$s13DesignCodeIOS20HexagonView_PreviewsVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS20HexagonView_PreviewsV",
+      "mangledName": "$s13DesignCodeIOS20HexagonView_PreviewsV",
+      "moduleName": "DesignCodeIOS",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BlobView",
+      "printedName": "BlobView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "appear",
+          "printedName": "appear",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS8BlobViewV6appearSbvp",
+          "mangledName": "$s13DesignCodeIOS8BlobViewV6appearSbvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS8BlobViewV6appearSbvg",
+              "mangledName": "$s13DesignCodeIOS8BlobViewV6appearSbvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS8BlobViewV6appearSbvs",
+              "mangledName": "$s13DesignCodeIOS8BlobViewV6appearSbvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS8BlobViewV6appearSbvM",
+              "mangledName": "$s13DesignCodeIOS8BlobViewV6appearSbvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$appear",
+          "printedName": "$appear",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS8BlobViewV7$appear7SwiftUI7BindingVySbGvp",
+          "mangledName": "$s13DesignCodeIOS8BlobViewV7$appear7SwiftUI7BindingVySbGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS8BlobViewV7$appear7SwiftUI7BindingVySbGvg",
+              "mangledName": "$s13DesignCodeIOS8BlobViewV7$appear7SwiftUI7BindingVySbGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_appear",
+          "printedName": "_appear",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS8BlobViewV7_appear33_2154200992D0295DD27144C8809D3F81LL7SwiftUI5StateVySbGvp",
+          "mangledName": "$s13DesignCodeIOS8BlobViewV7_appear33_2154200992D0295DD27144C8809D3F81LL7SwiftUI5StateVySbGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS8BlobViewV7_appear33_2154200992D0295DD27144C8809D3F81LL7SwiftUI5StateVySbGvg",
+              "mangledName": "$s13DesignCodeIOS8BlobViewV7_appear33_2154200992D0295DD27144C8809D3F81LL7SwiftUI5StateVySbGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS8BlobViewV7_appear33_2154200992D0295DD27144C8809D3F81LL7SwiftUI5StateVySbGvs",
+              "mangledName": "$s13DesignCodeIOS8BlobViewV7_appear33_2154200992D0295DD27144C8809D3F81LL7SwiftUI5StateVySbGvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS8BlobViewV7_appear33_2154200992D0295DD27144C8809D3F81LL7SwiftUI5StateVySbGvM",
+              "mangledName": "$s13DesignCodeIOS8BlobViewV7_appear33_2154200992D0295DD27144C8809D3F81LL7SwiftUI5StateVySbGvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS8BlobViewV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS8BlobViewV4bodyQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS8BlobViewV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS8BlobViewV4bodyQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "pathabc",
+          "printedName": "pathabc(in:x:x2:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Path",
+              "printedName": "SwiftUI.Path",
+              "usr": "s:7SwiftUI4PathV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Double",
+              "printedName": "Swift.Double",
+              "usr": "s:Sd"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13DesignCodeIOS8BlobViewV7pathabc2in1x2x27SwiftUI4PathVSo6CGRectV_S2dtF",
+          "mangledName": "$s13DesignCodeIOS8BlobViewV7pathabc2in1x2x27SwiftUI4PathVSo6CGRectV_S2dtF",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BlobView",
+              "printedName": "DesignCodeIOS.BlobView",
+              "usr": "s:13DesignCodeIOS8BlobViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS8BlobViewVACycfc",
+          "mangledName": "$s13DesignCodeIOS8BlobViewVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(appear:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BlobView",
+              "printedName": "DesignCodeIOS.BlobView",
+              "usr": "s:13DesignCodeIOS8BlobViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "hasDefaultArg": true,
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS8BlobViewV6appearACSb_tcfc",
+          "mangledName": "$s13DesignCodeIOS8BlobViewV6appearACSb_tcfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS8BlobViewV",
+      "mangledName": "$s13DesignCodeIOS8BlobViewV",
+      "moduleName": "DesignCodeIOS",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BlobView_Previews",
+      "printedName": "BlobView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS17BlobView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13DesignCodeIOS17BlobView_PreviewsV8previewsQrvpZ",
+          "moduleName": "DesignCodeIOS",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS17BlobView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13DesignCodeIOS17BlobView_PreviewsV8previewsQrvgZ",
+              "moduleName": "DesignCodeIOS",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BlobView_Previews",
+              "printedName": "DesignCodeIOS.BlobView_Previews",
+              "usr": "s:13DesignCodeIOS17BlobView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS17BlobView_PreviewsVACycfc",
+          "mangledName": "$s13DesignCodeIOS17BlobView_PreviewsVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS17BlobView_PreviewsV",
+      "mangledName": "$s13DesignCodeIOS17BlobView_PreviewsV",
+      "moduleName": "DesignCodeIOS",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "BlobShape",
+      "printedName": "BlobShape",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "path",
+          "printedName": "path(in:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Path",
+              "printedName": "SwiftUI.Path",
+              "usr": "s:7SwiftUI4PathV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:13DesignCodeIOS9BlobShapeV4path2in7SwiftUI4PathVSo6CGRectV_tF",
+          "mangledName": "$s13DesignCodeIOS9BlobShapeV4path2in7SwiftUI4PathVSo6CGRectV_tF",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "BlobShape",
+              "printedName": "DesignCodeIOS.BlobShape",
+              "usr": "s:13DesignCodeIOS9BlobShapeV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS9BlobShapeVACycfc",
+          "mangledName": "$s13DesignCodeIOS9BlobShapeVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS9BlobShapeV",
+      "mangledName": "$s13DesignCodeIOS9BlobShapeV",
+      "moduleName": "DesignCodeIOS",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "_ShapeView",
+                  "printedName": "SwiftUI._ShapeView<DesignCodeIOS.BlobShape, SwiftUI.ForegroundStyle>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "BlobShape",
+                      "printedName": "DesignCodeIOS.BlobShape",
+                      "usr": "s:13DesignCodeIOS9BlobShapeV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ForegroundStyle",
+                      "printedName": "SwiftUI.ForegroundStyle",
+                      "usr": "s:7SwiftUI15ForegroundStyleV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI10_ShapeViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Shape",
+          "printedName": "Shape",
+          "usr": "s:7SwiftUI5ShapeP",
+          "mangledName": "$s7SwiftUI5ShapeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Animatable",
+          "printedName": "Animatable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "AnimatableData",
+              "printedName": "AnimatableData",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EmptyAnimatableData",
+                  "printedName": "SwiftUI.EmptyAnimatableData",
+                  "usr": "s:7SwiftUI19EmptyAnimatableDataV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI10AnimatableP",
+          "mangledName": "$s7SwiftUI10AnimatableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "View",
+      "printedName": "View",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "strokeStyle",
+          "printedName": "strokeStyle(cornerRadius:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGFloat",
+              "printedName": "CoreGraphics.CGFloat",
+              "hasDefaultArg": true,
+              "usr": "s:12CoreGraphics7CGFloatV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:7SwiftUI4ViewP13DesignCodeIOSE11strokeStyle12cornerRadiusQr12CoreGraphics7CGFloatV_tF",
+          "mangledName": "$s7SwiftUI4ViewP13DesignCodeIOSE11strokeStyle12cornerRadiusQr12CoreGraphics7CGFloatV_tF",
+          "moduleName": "DesignCodeIOS",
+          "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+          "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:7SwiftUI4ViewP",
+      "mangledName": "$s7SwiftUI4ViewP",
+      "moduleName": "SwiftUI",
+      "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+      "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+      "intro_Macosx": "10.15",
+      "intro_iOS": "13.0",
+      "intro_tvOS": "13.0",
+      "intro_watchOS": "6.0",
+      "declAttributes": [
+        "TypeEraser",
+        "Available",
+        "Available",
+        "Available",
+        "Available"
+      ],
+      "isExternal": true
+    }
+  ],
+  "json_format_version": 6
+}

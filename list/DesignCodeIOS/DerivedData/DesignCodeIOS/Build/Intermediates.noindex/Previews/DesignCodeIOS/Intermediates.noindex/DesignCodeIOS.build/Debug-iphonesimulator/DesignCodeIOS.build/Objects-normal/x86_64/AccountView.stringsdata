@@ -1,0 +1,48 @@
+{
+  "source": "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/AccountView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Settings"
+      },
+      {
+        "comment": "",
+        "key": "Billing"
+      },
+      {
+        "comment": "",
+        "key": "Help"
+      },
+      {
+        "comment": "",
+        "key": "Meng To"
+      },
+      {
+        "comment": "",
+        "key": "Canada"
+      },
+      {
+        "comment": "",
+        "key": "abc"
+      },
+      {
+        "comment": "",
+        "key": "Delete"
+      },
+      {
+        "comment": "",
+        "key": "Website"
+      },
+      {
+        "comment": "",
+        "key": "Unpin"
+      },
+      {
+        "comment": "",
+        "key": "sdsd"
+      }
+    ]
+  },
+  "version": 1
+}

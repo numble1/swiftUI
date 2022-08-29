@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+AppForiOS15 in AppForiOS15, no dependencies
+AppForiOS15 in AppForiOS15, no dependencies

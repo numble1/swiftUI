@@ -1,0 +1,962 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "CXPSwiftUI"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "CXPSwiftUI"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "CXPSwiftUI"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "username",
+          "printedName": "username",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10CXPSwiftUI11ContentViewV8username33_B06A19DF63E298248D88B7ED52A819BALLSSvp",
+          "mangledName": "$s10CXPSwiftUI11ContentViewV8username33_B06A19DF63E298248D88B7ED52A819BALLSSvp",
+          "moduleName": "CXPSwiftUI",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV8username33_B06A19DF63E298248D88B7ED52A819BALLSSvg",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV8username33_B06A19DF63E298248D88B7ED52A819BALLSSvg",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV8username33_B06A19DF63E298248D88B7ED52A819BALLSSvs",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV8username33_B06A19DF63E298248D88B7ED52A819BALLSSvs",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV8username33_B06A19DF63E298248D88B7ED52A819BALLSSvM",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV8username33_B06A19DF63E298248D88B7ED52A819BALLSSvM",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$username",
+          "printedName": "$username",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10CXPSwiftUI11ContentViewV9$username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB07BindingVySSGvp",
+          "mangledName": "$s10CXPSwiftUI11ContentViewV9$username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB07BindingVySSGvp",
+          "moduleName": "CXPSwiftUI",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV9$username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB07BindingVySSGvg",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV9$username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB07BindingVySSGvg",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_username",
+          "printedName": "_username",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "SwiftUI.State<Swift.String>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:7SwiftUI5StateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10CXPSwiftUI11ContentViewV9_username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB05StateVySSGvp",
+          "mangledName": "$s10CXPSwiftUI11ContentViewV9_username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB05StateVySSGvp",
+          "moduleName": "CXPSwiftUI",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV9_username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB05StateVySSGvg",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV9_username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB05StateVySSGvg",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "SwiftUI.State<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI5StateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV9_username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB05StateVySSGvs",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV9_username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB05StateVySSGvs",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV9_username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB05StateVySSGvM",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV9_username33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB05StateVySSGvM",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "emailFieldIsFocused",
+          "printedName": "emailFieldIsFocused",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10CXPSwiftUI11ContentViewV19emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALLSbvp",
+          "mangledName": "$s10CXPSwiftUI11ContentViewV19emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALLSbvp",
+          "moduleName": "CXPSwiftUI",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV19emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALLSbvg",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV19emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALLSbvg",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV19emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALLSbvs",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV19emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALLSbvs",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV19emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALLSbvM",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV19emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALLSbvM",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$emailFieldIsFocused",
+          "printedName": "$emailFieldIsFocused",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.FocusState<Swift.Bool>.Binding",
+              "usr": "s:7SwiftUI10FocusStateV7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10CXPSwiftUI11ContentViewV20$emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateV7BindingVySb_Gvp",
+          "mangledName": "$s10CXPSwiftUI11ContentViewV20$emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateV7BindingVySb_Gvp",
+          "moduleName": "CXPSwiftUI",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.FocusState<Swift.Bool>.Binding",
+                  "usr": "s:7SwiftUI10FocusStateV7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV20$emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateV7BindingVySb_Gvg",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV20$emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateV7BindingVySb_Gvg",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_emailFieldIsFocused",
+          "printedName": "_emailFieldIsFocused",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FocusState",
+              "printedName": "SwiftUI.FocusState<Swift.Bool>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "usr": "s:7SwiftUI10FocusStateV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10CXPSwiftUI11ContentViewV20_emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateVySbGvp",
+          "mangledName": "$s10CXPSwiftUI11ContentViewV20_emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateVySbGvp",
+          "moduleName": "CXPSwiftUI",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "FocusState",
+                  "printedName": "SwiftUI.FocusState<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI10FocusStateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV20_emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateVySbGvg",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV20_emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateVySbGvg",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "FocusState",
+                  "printedName": "SwiftUI.FocusState<Swift.Bool>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI10FocusStateV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV20_emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateVySbGvs",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV20_emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateVySbGvs",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV20_emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateVySbGvM",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV20_emailFieldIsFocused33_B06A19DF63E298248D88B7ED52A819BALL05SwiftB010FocusStateVySbGvM",
+              "moduleName": "CXPSwiftUI",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10CXPSwiftUI11ContentViewV4bodyQrvp",
+          "mangledName": "$s10CXPSwiftUI11ContentViewV4bodyQrvp",
+          "moduleName": "CXPSwiftUI",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI11ContentViewV4bodyQrvg",
+              "mangledName": "$s10CXPSwiftUI11ContentViewV4bodyQrvg",
+              "moduleName": "CXPSwiftUI",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "CXPSwiftUI.ContentView",
+              "usr": "s:10CXPSwiftUI11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10CXPSwiftUI11ContentViewVACycfc",
+          "mangledName": "$s10CXPSwiftUI11ContentViewVACycfc",
+          "moduleName": "CXPSwiftUI",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10CXPSwiftUI11ContentViewV",
+      "mangledName": "$s10CXPSwiftUI11ContentViewV",
+      "moduleName": "CXPSwiftUI",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView_Previews",
+      "printedName": "ContentView_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10CXPSwiftUI20ContentView_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s10CXPSwiftUI20ContentView_PreviewsV8previewsQrvpZ",
+          "moduleName": "CXPSwiftUI",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI20ContentView_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s10CXPSwiftUI20ContentView_PreviewsV8previewsQrvgZ",
+              "moduleName": "CXPSwiftUI",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView_Previews",
+              "printedName": "CXPSwiftUI.ContentView_Previews",
+              "usr": "s:10CXPSwiftUI20ContentView_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10CXPSwiftUI20ContentView_PreviewsVACycfc",
+          "mangledName": "$s10CXPSwiftUI20ContentView_PreviewsVACycfc",
+          "moduleName": "CXPSwiftUI",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10CXPSwiftUI20ContentView_PreviewsV",
+      "mangledName": "$s10CXPSwiftUI20ContentView_PreviewsV",
+      "moduleName": "CXPSwiftUI",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "CXPSwiftUI"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "CXPSwiftUI"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "CXPSwiftUI"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "CXPSwiftUIApp",
+      "printedName": "CXPSwiftUIApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowGroup",
+              "printedName": "SwiftUI.WindowGroup<CXPSwiftUI.ContentView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView",
+                  "printedName": "CXPSwiftUI.ContentView",
+                  "usr": "s:10CXPSwiftUI11ContentViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI11WindowGroupV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10CXPSwiftUI0A5UIAppV4bodyQrvp",
+          "mangledName": "$s10CXPSwiftUI0A5UIAppV4bodyQrvp",
+          "moduleName": "CXPSwiftUI",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<CXPSwiftUI.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "CXPSwiftUI.ContentView",
+                      "usr": "s:10CXPSwiftUI11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10CXPSwiftUI0A5UIAppV4bodyQrvg",
+              "mangledName": "$s10CXPSwiftUI0A5UIAppV4bodyQrvg",
+              "moduleName": "CXPSwiftUI",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10CXPSwiftUI0A5UIAppV5$mainyyFZ",
+          "mangledName": "$s10CXPSwiftUI0A5UIAppV5$mainyyFZ",
+          "moduleName": "CXPSwiftUI",
+          "static": true,
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CXPSwiftUIApp",
+              "printedName": "CXPSwiftUI.CXPSwiftUIApp",
+              "usr": "s:10CXPSwiftUI0A5UIAppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10CXPSwiftUI0A5UIAppVACycfc",
+          "mangledName": "$s10CXPSwiftUI0A5UIAppVACycfc",
+          "moduleName": "CXPSwiftUI",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10CXPSwiftUI0A5UIAppV",
+      "mangledName": "$s10CXPSwiftUI0A5UIAppV",
+      "moduleName": "CXPSwiftUI",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<CXPSwiftUI.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "CXPSwiftUI.ContentView",
+                      "usr": "s:10CXPSwiftUI11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

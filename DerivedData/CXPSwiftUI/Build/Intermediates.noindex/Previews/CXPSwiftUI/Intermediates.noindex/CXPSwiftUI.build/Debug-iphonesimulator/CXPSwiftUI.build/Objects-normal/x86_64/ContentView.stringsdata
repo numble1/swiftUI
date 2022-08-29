@@ -1,0 +1,12 @@
+{
+  "source": "/Users/wangjie/Desktop/AppForiOS15/CXPSwiftUI/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "User name (email address)"
+      }
+    ]
+  },
+  "version": 1
+}

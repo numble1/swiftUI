@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "ff14d9b2ab80dc05ba55e06f66145591f97bb0817a9728c258188b461dab61c1"
+    }
+  ],
+  "containerPath" : "/Users/wangjie/Desktop/AppForiOS15/CXPSwiftUI.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/wangjie/Desktop/AppForiOS15/DerivedData/CXPSwiftUI/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/wangjie/Desktop/AppForiOS15/DerivedData/CXPSwiftUI/Index/Build/Products",
+      "derivedDataPath" : "/Users/wangjie/Desktop/AppForiOS15/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/wangjie/Desktop/AppForiOS15/DerivedData/CXPSwiftUI/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/wangjie/Desktop/AppForiOS15/DerivedData/CXPSwiftUI/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/wangjie/Desktop/AppForiOS15/DerivedData/CXPSwiftUI/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/wangjie/Desktop/AppForiOS15/DerivedData/CXPSwiftUI/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

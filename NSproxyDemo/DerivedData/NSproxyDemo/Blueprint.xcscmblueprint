@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "53746C4E91EF03EDE6324D3F64F83BDD00DDC156",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "53746C4E91EF03EDE6324D3F64F83BDD00DDC156" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BBF85E0B-2749-456F-B7D0-344925FEEB7E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "53746C4E91EF03EDE6324D3F64F83BDD00DDC156" : "AppForiOS15\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NSproxyDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NSproxyDemo\/NSproxyDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/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@github.com\/numble1\/swiftUI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53746C4E91EF03EDE6324D3F64F83BDD00DDC156"
+    }
+  ]
+}

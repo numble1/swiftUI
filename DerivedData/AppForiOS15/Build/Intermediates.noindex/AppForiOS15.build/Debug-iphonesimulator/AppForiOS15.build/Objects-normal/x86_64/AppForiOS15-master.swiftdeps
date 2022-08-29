@@ -1,7 +1,8 @@
 version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
 options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1660898736, 426361083]
-build_end_time: [1660898737, 109946012]
+build_start_time: [1661154474, 31769990]
+build_end_time: [1661154474, 664709091]
 inputs:
   "/Users/wangjie/Desktop/AppForiOS15/AppForiOS15/AppForiOS15App.swift": [1660814618, 284559488]
-  "/Users/wangjie/Desktop/AppForiOS15/AppForiOS15/ContentView.swift": [1660898733, 600102901]
+  "/Users/wangjie/Desktop/AppForiOS15/AppForiOS15/ContentView.swift": [1661154470, 341446399]
+  "/Users/wangjie/Desktop/AppForiOS15/AppForiOS15/Styles.swift": [1661140051, 842441082]

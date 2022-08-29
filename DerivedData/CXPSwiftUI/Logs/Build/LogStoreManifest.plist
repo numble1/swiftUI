@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1D6A936D-3EC2-4DDC-BC9E-8B69B42CC0EB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1D6A936D-3EC2-4DDC-BC9E-8B69B42CC0EB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CXPSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CXPSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews CXPSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>682847462.921803</real>
+			<key>timeStoppedRecording</key>
+			<real>682847477.180686</real>
+			<key>title</key>
+			<string>Build for Previews CXPSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>1D6A936D-3EC2-4DDC-BC9E-8B69B42CC0EB</string>
+		</dict>
+		<key>40135C2E-1DC6-450C-9B2D-F680BF747E28</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>40135C2E-1DC6-450C-9B2D-F680BF747E28.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CXPSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CXPSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build CXPSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>682847459.87497699</real>
+			<key>timeStoppedRecording</key>
+			<real>682847462.90176404</real>
+			<key>title</key>
+			<string>Build CXPSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>40135C2E-1DC6-450C-9B2D-F680BF747E28</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
