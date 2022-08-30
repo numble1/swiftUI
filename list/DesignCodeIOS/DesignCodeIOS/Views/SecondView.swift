@@ -10,8 +10,12 @@ import SwiftUI
 struct SecondView: View {
     var body: some View {
         ScrollView{
+            Color.clear.frame(height:80)
         FeatureItem()
         }
+        .safeAreaInset(edge: .top, content: {
+            Color.clear.frame(height:100)
+        })
         .overlay(
          NavigationBar(title: "导航栏标题")
         )
