@@ -1177,14 +1177,257 @@
       "children": [
         {
           "kind": "Var",
+          "name": "selectedTab",
+          "printedName": "selectedTab",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Tab",
+              "printedName": "DesignCodeIOS.Tab",
+              "usr": "s:13DesignCodeIOS3TabO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovp",
+          "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tab",
+                  "printedName": "DesignCodeIOS.Tab",
+                  "usr": "s:13DesignCodeIOS3TabO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovg",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tab",
+                  "printedName": "DesignCodeIOS.Tab",
+                  "usr": "s:13DesignCodeIOS3TabO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovs",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAA0G0OvM",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAA0G0OvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$selectedTab",
+          "printedName": "$selectedTab",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<DesignCodeIOS.Tab>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tab",
+                  "printedName": "DesignCodeIOS.Tab",
+                  "usr": "s:13DesignCodeIOS3TabO"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11ContentViewV12$selectedTab7SwiftUI7BindingVyAA0G0OGvp",
+          "mangledName": "$s13DesignCodeIOS11ContentViewV12$selectedTab7SwiftUI7BindingVyAA0G0OGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<DesignCodeIOS.Tab>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tab",
+                      "printedName": "DesignCodeIOS.Tab",
+                      "usr": "s:13DesignCodeIOS3TabO"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV12$selectedTab7SwiftUI7BindingVyAA0G0OGvg",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV12$selectedTab7SwiftUI7BindingVyAA0G0OGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_selectedTab",
+          "printedName": "_selectedTab",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppStorage",
+              "printedName": "SwiftUI.AppStorage<DesignCodeIOS.Tab>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tab",
+                  "printedName": "DesignCodeIOS.Tab",
+                  "usr": "s:13DesignCodeIOS3TabO"
+                }
+              ],
+              "usr": "s:7SwiftUI10AppStorageV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvp",
+          "mangledName": "$s13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "TabView",
-              "printedName": "DesignCodeIOS.TabView",
-              "usr": "s:13DesignCodeIOS7TabViewV"
+              "name": "ZStack",
+              "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, DesignCodeIOS.TabBar)>>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TupleView",
+                  "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, DesignCodeIOS.TabBar)>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, DesignCodeIOS.TabBar)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "_ConditionalContent",
+                          "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "_ConditionalContent",
+                              "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "AccountView",
+                                  "printedName": "DesignCodeIOS.AccountView",
+                                  "usr": "s:13DesignCodeIOS11AccountViewV"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "HexagonView",
+                                  "printedName": "DesignCodeIOS.HexagonView",
+                                  "usr": "s:13DesignCodeIOS11HexagonViewV"
+                                }
+                              ],
+                              "usr": "s:7SwiftUI19_ConditionalContentV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "_ConditionalContent",
+                              "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "BlobView",
+                                  "printedName": "DesignCodeIOS.BlobView",
+                                  "usr": "s:13DesignCodeIOS8BlobViewV"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "SecondView",
+                                  "printedName": "DesignCodeIOS.SecondView",
+                                  "usr": "s:13DesignCodeIOS10SecondViewV"
+                                }
+                              ],
+                              "usr": "s:7SwiftUI19_ConditionalContentV"
+                            }
+                          ],
+                          "usr": "s:7SwiftUI19_ConditionalContentV"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "TabBar",
+                          "printedName": "DesignCodeIOS.TabBar",
+                          "usr": "s:13DesignCodeIOS6TabBarV"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:7SwiftUI9TupleViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI6ZStackV"
             }
           ],
           "declKind": "Var",
@@ -1202,9 +1445,80 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "TabView",
-                  "printedName": "DesignCodeIOS.TabView",
-                  "usr": "s:13DesignCodeIOS7TabViewV"
+                  "name": "ZStack",
+                  "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, DesignCodeIOS.TabBar)>>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TupleView",
+                      "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, DesignCodeIOS.TabBar)>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, DesignCodeIOS.TabBar)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "_ConditionalContent",
+                              "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "_ConditionalContent",
+                                  "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>",
+                                  "children": [
+                                    {
+                                      "kind": "TypeNominal",
+                                      "name": "AccountView",
+                                      "printedName": "DesignCodeIOS.AccountView",
+                                      "usr": "s:13DesignCodeIOS11AccountViewV"
+                                    },
+                                    {
+                                      "kind": "TypeNominal",
+                                      "name": "HexagonView",
+                                      "printedName": "DesignCodeIOS.HexagonView",
+                                      "usr": "s:13DesignCodeIOS11HexagonViewV"
+                                    }
+                                  ],
+                                  "usr": "s:7SwiftUI19_ConditionalContentV"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "_ConditionalContent",
+                                  "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>",
+                                  "children": [
+                                    {
+                                      "kind": "TypeNominal",
+                                      "name": "BlobView",
+                                      "printedName": "DesignCodeIOS.BlobView",
+                                      "usr": "s:13DesignCodeIOS8BlobViewV"
+                                    },
+                                    {
+                                      "kind": "TypeNominal",
+                                      "name": "SecondView",
+                                      "printedName": "DesignCodeIOS.SecondView",
+                                      "usr": "s:13DesignCodeIOS10SecondViewV"
+                                    }
+                                  ],
+                                  "usr": "s:7SwiftUI19_ConditionalContentV"
+                                }
+                              ],
+                              "usr": "s:7SwiftUI19_ConditionalContentV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "TabBar",
+                              "printedName": "DesignCodeIOS.TabBar",
+                              "usr": "s:13DesignCodeIOS6TabBarV"
+                            }
+                          ]
+                        }
+                      ],
+                      "usr": "s:7SwiftUI9TupleViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI6ZStackV"
                 }
               ],
               "declKind": "Accessor",
@@ -1233,6 +1547,32 @@
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selectedTab:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "DesignCodeIOS.ContentView",
+              "usr": "s:13DesignCodeIOS11ContentViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Tab",
+              "printedName": "DesignCodeIOS.Tab",
+              "hasDefaultArg": true,
+              "usr": "s:13DesignCodeIOS3TabO"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAcA0G0O_tcfc",
+          "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAcA0G0O_tcfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "init_kind": "Designated"
         }
       ],
       "declKind": "Struct",
@@ -1252,22 +1592,86 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "TabView",
-                  "printedName": "DesignCodeIOS.TabView",
-                  "usr": "s:13DesignCodeIOS7TabViewV"
+                  "name": "ZStack",
+                  "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, DesignCodeIOS.TabBar)>>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "TupleView",
+                      "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, DesignCodeIOS.TabBar)>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, DesignCodeIOS.TabBar)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "_ConditionalContent",
+                              "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>",
+                              "children": [
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "_ConditionalContent",
+                                  "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>",
+                                  "children": [
+                                    {
+                                      "kind": "TypeNominal",
+                                      "name": "AccountView",
+                                      "printedName": "DesignCodeIOS.AccountView",
+                                      "usr": "s:13DesignCodeIOS11AccountViewV"
+                                    },
+                                    {
+                                      "kind": "TypeNominal",
+                                      "name": "HexagonView",
+                                      "printedName": "DesignCodeIOS.HexagonView",
+                                      "usr": "s:13DesignCodeIOS11HexagonViewV"
+                                    }
+                                  ],
+                                  "usr": "s:7SwiftUI19_ConditionalContentV"
+                                },
+                                {
+                                  "kind": "TypeNominal",
+                                  "name": "_ConditionalContent",
+                                  "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>",
+                                  "children": [
+                                    {
+                                      "kind": "TypeNominal",
+                                      "name": "BlobView",
+                                      "printedName": "DesignCodeIOS.BlobView",
+                                      "usr": "s:13DesignCodeIOS8BlobViewV"
+                                    },
+                                    {
+                                      "kind": "TypeNominal",
+                                      "name": "SecondView",
+                                      "printedName": "DesignCodeIOS.SecondView",
+                                      "usr": "s:13DesignCodeIOS10SecondViewV"
+                                    }
+                                  ],
+                                  "usr": "s:7SwiftUI19_ConditionalContentV"
+                                }
+                              ],
+                              "usr": "s:7SwiftUI19_ConditionalContentV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "TabBar",
+                              "printedName": "DesignCodeIOS.TabBar",
+                              "usr": "s:13DesignCodeIOS6TabBarV"
+                            }
+                          ]
+                        }
+                      ],
+                      "usr": "s:7SwiftUI9TupleViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI6ZStackV"
                 }
               ]
             }
           ],
           "usr": "s:7SwiftUI4ViewP",
           "mangledName": "$s7SwiftUI4ViewP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "Sendable",
-          "printedName": "Sendable",
-          "usr": "s:s8SendableP",
-          "mangledName": "$ss8SendableP"
         }
       ]
     },
@@ -1283,9 +1687,9 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "TabView",
-              "printedName": "DesignCodeIOS.TabView",
-              "usr": "s:13DesignCodeIOS7TabViewV"
+              "name": "ContentView",
+              "printedName": "DesignCodeIOS.ContentView",
+              "usr": "s:13DesignCodeIOS11ContentViewV"
             }
           ],
           "declKind": "Var",
@@ -1304,9 +1708,9 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "TabView",
-                  "printedName": "DesignCodeIOS.TabView",
-                  "usr": "s:13DesignCodeIOS7TabViewV"
+                  "name": "ContentView",
+                  "printedName": "DesignCodeIOS.ContentView",
+                  "usr": "s:13DesignCodeIOS11ContentViewV"
                 }
               ],
               "declKind": "Accessor",
@@ -1368,9 +1772,9 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "TabView",
-                  "printedName": "DesignCodeIOS.TabView",
-                  "usr": "s:13DesignCodeIOS7TabViewV"
+                  "name": "ContentView",
+                  "printedName": "DesignCodeIOS.ContentView",
+                  "usr": "s:13DesignCodeIOS11ContentViewV"
                 }
               ]
             }
@@ -3277,8 +3681,8 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "TabView",
-      "printedName": "TabView",
+      "name": "TabBar",
+      "printedName": "TabBar",
       "children": [
         {
           "kind": "Var",
@@ -3293,8 +3697,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovp",
+          "usr": "s:13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "ProjectedValueProperty",
@@ -3314,8 +3718,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovg",
+              "usr": "s:13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "get"
@@ -3338,8 +3742,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovs",
+              "usr": "s:13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovs",
+              "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "set"
@@ -3356,8 +3760,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV08selectedD0AA0D0OvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD0AA0D0OvM",
+              "usr": "s:13DesignCodeIOS6TabBarV08selectedD0AA0D0OvM",
+              "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD0AA0D0OvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "_modify"
@@ -3385,8 +3789,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV09$selectedD07SwiftUI7BindingVyAA0D0OGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV09$selectedD07SwiftUI7BindingVyAA0D0OGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV09$selectedD07SwiftUI7BindingVyAA0D0OGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV09$selectedD07SwiftUI7BindingVyAA0D0OGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "accessors": [
@@ -3411,8 +3815,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV09$selectedD07SwiftUI7BindingVyAA0D0OGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV09$selectedD07SwiftUI7BindingVyAA0D0OGvg",
+              "usr": "s:13DesignCodeIOS6TabBarV09$selectedD07SwiftUI7BindingVyAA0D0OGvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV09$selectedD07SwiftUI7BindingVyAA0D0OGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "get"
@@ -3426,8 +3830,8 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "State",
-              "printedName": "SwiftUI.State<DesignCodeIOS.Tab>",
+              "name": "AppStorage",
+              "printedName": "SwiftUI.AppStorage<DesignCodeIOS.Tab>",
               "children": [
                 {
                   "kind": "TypeNominal",
@@ -3436,12 +3840,12 @@
                   "usr": "s:13DesignCodeIOS3TabO"
                 }
               ],
-              "usr": "s:7SwiftUI5StateV"
+              "usr": "s:7SwiftUI10AppStorageV"
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "isInternal": true,
@@ -3465,8 +3869,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvp",
+          "usr": "s:13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "ProjectedValueProperty",
@@ -3486,8 +3890,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvg",
+              "usr": "s:13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "get"
@@ -3510,8 +3914,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvs",
+              "usr": "s:13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvs",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "set"
@@ -3528,8 +3932,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0VvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0VvM",
+              "usr": "s:13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0VvM",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0VvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "_modify"
@@ -3557,8 +3961,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV14$selectedColor7SwiftUI7BindingVyAE0G0VGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV14$selectedColor7SwiftUI7BindingVyAE0G0VGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV14$selectedColor7SwiftUI7BindingVyAE0G0VGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV14$selectedColor7SwiftUI7BindingVyAE0G0VGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "accessors": [
@@ -3583,8 +3987,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV14$selectedColor7SwiftUI7BindingVyAE0G0VGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV14$selectedColor7SwiftUI7BindingVyAE0G0VGvg",
+              "usr": "s:13DesignCodeIOS6TabBarV14$selectedColor7SwiftUI7BindingVyAE0G0VGvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV14$selectedColor7SwiftUI7BindingVyAE0G0VGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "get"
@@ -3612,8 +4016,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "isInternal": true,
@@ -3637,8 +4041,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvp",
+          "usr": "s:13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "ProjectedValueProperty",
@@ -3658,8 +4062,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvg",
+              "usr": "s:13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "get"
@@ -3682,8 +4086,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvs",
+              "usr": "s:13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "set"
@@ -3700,8 +4104,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvM",
+              "usr": "s:13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "_modify"
@@ -3729,8 +4133,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "accessors": [
@@ -3755,8 +4159,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
+              "usr": "s:13DesignCodeIOS6TabBarV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "get"
@@ -3784,8 +4188,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "isInternal": true,
@@ -3804,97 +4208,34 @@
             {
               "kind": "TypeNominal",
               "name": "ZStack",
-              "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, some SwiftUI.View)>>",
+              "printedName": "SwiftUI.ZStack<some SwiftUI.View>",
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "TupleView",
-                  "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, some SwiftUI.View)>",
+                  "name": "ModifiedContent",
+                  "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._FlexFrameLayout>",
                   "children": [
                     {
                       "kind": "TypeNominal",
-                      "name": "Tuple",
-                      "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, some SwiftUI.View)",
-                      "children": [
-                        {
-                          "kind": "TypeNominal",
-                          "name": "_ConditionalContent",
-                          "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>",
-                          "children": [
-                            {
-                              "kind": "TypeNominal",
-                              "name": "_ConditionalContent",
-                              "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>",
-                              "children": [
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "AccountView",
-                                  "printedName": "DesignCodeIOS.AccountView",
-                                  "usr": "s:13DesignCodeIOS11AccountViewV"
-                                },
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "HexagonView",
-                                  "printedName": "DesignCodeIOS.HexagonView",
-                                  "usr": "s:13DesignCodeIOS11HexagonViewV"
-                                }
-                              ],
-                              "usr": "s:7SwiftUI19_ConditionalContentV"
-                            },
-                            {
-                              "kind": "TypeNominal",
-                              "name": "_ConditionalContent",
-                              "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>",
-                              "children": [
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "BlobView",
-                                  "printedName": "DesignCodeIOS.BlobView",
-                                  "usr": "s:13DesignCodeIOS8BlobViewV"
-                                },
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "SecondView",
-                                  "printedName": "DesignCodeIOS.SecondView",
-                                  "usr": "s:13DesignCodeIOS10SecondViewV"
-                                }
-                              ],
-                              "usr": "s:7SwiftUI19_ConditionalContentV"
-                            }
-                          ],
-                          "usr": "s:7SwiftUI19_ConditionalContentV"
-                        },
-                        {
-                          "kind": "TypeNominal",
-                          "name": "ModifiedContent",
-                          "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._FlexFrameLayout>",
-                          "children": [
-                            {
-                              "kind": "TypeNominal",
-                              "name": "GenericTypeParam",
-                              "printedName": "τ_0_0"
-                            },
-                            {
-                              "kind": "TypeNominal",
-                              "name": "_FlexFrameLayout",
-                              "printedName": "SwiftUI._FlexFrameLayout",
-                              "usr": "s:7SwiftUI16_FlexFrameLayoutV"
-                            }
-                          ],
-                          "usr": "s:7SwiftUI15ModifiedContentV"
-                        }
-                      ]
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "_FlexFrameLayout",
+                      "printedName": "SwiftUI._FlexFrameLayout",
+                      "usr": "s:7SwiftUI16_FlexFrameLayoutV"
                     }
                   ],
-                  "usr": "s:7SwiftUI9TupleViewV"
+                  "usr": "s:7SwiftUI15ModifiedContentV"
                 }
               ],
               "usr": "s:7SwiftUI6ZStackV"
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV4bodyQrvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV4bodyQrvp",
+          "usr": "s:13DesignCodeIOS6TabBarV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV4bodyQrvp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "Custom"
@@ -3908,97 +4249,34 @@
                 {
                   "kind": "TypeNominal",
                   "name": "ZStack",
-                  "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, some SwiftUI.View)>>",
+                  "printedName": "SwiftUI.ZStack<some SwiftUI.View>",
                   "children": [
                     {
                       "kind": "TypeNominal",
-                      "name": "TupleView",
-                      "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, some SwiftUI.View)>",
+                      "name": "ModifiedContent",
+                      "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._FlexFrameLayout>",
                       "children": [
                         {
                           "kind": "TypeNominal",
-                          "name": "Tuple",
-                          "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, some SwiftUI.View)",
-                          "children": [
-                            {
-                              "kind": "TypeNominal",
-                              "name": "_ConditionalContent",
-                              "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>",
-                              "children": [
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "_ConditionalContent",
-                                  "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>",
-                                  "children": [
-                                    {
-                                      "kind": "TypeNominal",
-                                      "name": "AccountView",
-                                      "printedName": "DesignCodeIOS.AccountView",
-                                      "usr": "s:13DesignCodeIOS11AccountViewV"
-                                    },
-                                    {
-                                      "kind": "TypeNominal",
-                                      "name": "HexagonView",
-                                      "printedName": "DesignCodeIOS.HexagonView",
-                                      "usr": "s:13DesignCodeIOS11HexagonViewV"
-                                    }
-                                  ],
-                                  "usr": "s:7SwiftUI19_ConditionalContentV"
-                                },
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "_ConditionalContent",
-                                  "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>",
-                                  "children": [
-                                    {
-                                      "kind": "TypeNominal",
-                                      "name": "BlobView",
-                                      "printedName": "DesignCodeIOS.BlobView",
-                                      "usr": "s:13DesignCodeIOS8BlobViewV"
-                                    },
-                                    {
-                                      "kind": "TypeNominal",
-                                      "name": "SecondView",
-                                      "printedName": "DesignCodeIOS.SecondView",
-                                      "usr": "s:13DesignCodeIOS10SecondViewV"
-                                    }
-                                  ],
-                                  "usr": "s:7SwiftUI19_ConditionalContentV"
-                                }
-                              ],
-                              "usr": "s:7SwiftUI19_ConditionalContentV"
-                            },
-                            {
-                              "kind": "TypeNominal",
-                              "name": "ModifiedContent",
-                              "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._FlexFrameLayout>",
-                              "children": [
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "GenericTypeParam",
-                                  "printedName": "τ_0_0"
-                                },
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "_FlexFrameLayout",
-                                  "printedName": "SwiftUI._FlexFrameLayout",
-                                  "usr": "s:7SwiftUI16_FlexFrameLayoutV"
-                                }
-                              ],
-                              "usr": "s:7SwiftUI15ModifiedContentV"
-                            }
-                          ]
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "_FlexFrameLayout",
+                          "printedName": "SwiftUI._FlexFrameLayout",
+                          "usr": "s:7SwiftUI16_FlexFrameLayoutV"
                         }
                       ],
-                      "usr": "s:7SwiftUI9TupleViewV"
+                      "usr": "s:7SwiftUI15ModifiedContentV"
                     }
                   ],
                   "usr": "s:7SwiftUI6ZStackV"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV4bodyQrvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV4bodyQrvg",
+              "usr": "s:13DesignCodeIOS6TabBarV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV4bodyQrvg",
               "moduleName": "DesignCodeIOS",
               "accessorKind": "get"
             }
@@ -4024,8 +4302,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV10backgroundQrvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV10backgroundQrvp",
+          "usr": "s:13DesignCodeIOS6TabBarV10backgroundQrvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV10backgroundQrvp",
           "moduleName": "DesignCodeIOS",
           "accessors": [
             {
@@ -4048,8 +4326,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV10backgroundQrvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV10backgroundQrvg",
+              "usr": "s:13DesignCodeIOS6TabBarV10backgroundQrvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV10backgroundQrvg",
               "moduleName": "DesignCodeIOS",
               "accessorKind": "get"
             }
@@ -4075,8 +4353,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV9topSliderQrvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV9topSliderQrvp",
+          "usr": "s:13DesignCodeIOS6TabBarV9topSliderQrvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV9topSliderQrvp",
           "moduleName": "DesignCodeIOS",
           "accessors": [
             {
@@ -4099,8 +4377,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV9topSliderQrvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV9topSliderQrvg",
+              "usr": "s:13DesignCodeIOS6TabBarV9topSliderQrvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV9topSliderQrvg",
               "moduleName": "DesignCodeIOS",
               "accessorKind": "get"
             }
@@ -4167,8 +4445,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV7buttonsQrvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV7buttonsQrvp",
+          "usr": "s:13DesignCodeIOS6TabBarV7buttonsQrvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV7buttonsQrvp",
           "moduleName": "DesignCodeIOS",
           "accessors": [
             {
@@ -4232,8 +4510,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV7buttonsQrvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV7buttonsQrvg",
+              "usr": "s:13DesignCodeIOS6TabBarV7buttonsQrvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV7buttonsQrvg",
               "moduleName": "DesignCodeIOS",
               "accessorKind": "get"
             }
@@ -4246,14 +4524,14 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "TabView",
-              "printedName": "DesignCodeIOS.TabView",
-              "usr": "s:13DesignCodeIOS7TabViewV"
+              "name": "TabBar",
+              "printedName": "DesignCodeIOS.TabBar",
+              "usr": "s:13DesignCodeIOS6TabBarV"
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:13DesignCodeIOS7TabViewVACycfc",
-          "mangledName": "$s13DesignCodeIOS7TabViewVACycfc",
+          "usr": "s:13DesignCodeIOS6TabBarVACycfc",
+          "mangledName": "$s13DesignCodeIOS6TabBarVACycfc",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "init_kind": "Designated"
@@ -4265,9 +4543,9 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "TabView",
-              "printedName": "DesignCodeIOS.TabView",
-              "usr": "s:13DesignCodeIOS7TabViewV"
+              "name": "TabBar",
+              "printedName": "DesignCodeIOS.TabBar",
+              "usr": "s:13DesignCodeIOS6TabBarV"
             },
             {
               "kind": "TypeNominal",
@@ -4292,16 +4570,16 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:13DesignCodeIOS7TabViewV08selectedD00F5Color12tabItemWidthAcA0D0O_7SwiftUI0G0V12CoreGraphics7CGFloatVtcfc",
-          "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD00F5Color12tabItemWidthAcA0D0O_7SwiftUI0G0V12CoreGraphics7CGFloatVtcfc",
+          "usr": "s:13DesignCodeIOS6TabBarV08selectedD00F5Color12tabItemWidthAcA0D0O_7SwiftUI0G0V12CoreGraphics7CGFloatVtcfc",
+          "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD00F5Color12tabItemWidthAcA0D0O_7SwiftUI0G0V12CoreGraphics7CGFloatVtcfc",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "init_kind": "Designated"
         }
       ],
       "declKind": "Struct",
-      "usr": "s:13DesignCodeIOS7TabViewV",
-      "mangledName": "$s13DesignCodeIOS7TabViewV",
+      "usr": "s:13DesignCodeIOS6TabBarV",
+      "mangledName": "$s13DesignCodeIOS6TabBarV",
       "moduleName": "DesignCodeIOS",
       "conformances": [
         {
@@ -4317,89 +4595,26 @@
                 {
                   "kind": "TypeNominal",
                   "name": "ZStack",
-                  "printedName": "SwiftUI.ZStack<SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, some SwiftUI.View)>>",
+                  "printedName": "SwiftUI.ZStack<some SwiftUI.View>",
                   "children": [
                     {
                       "kind": "TypeNominal",
-                      "name": "TupleView",
-                      "printedName": "SwiftUI.TupleView<(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, some SwiftUI.View)>",
+                      "name": "ModifiedContent",
+                      "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._FlexFrameLayout>",
                       "children": [
                         {
                           "kind": "TypeNominal",
-                          "name": "Tuple",
-                          "printedName": "(SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>, some SwiftUI.View)",
-                          "children": [
-                            {
-                              "kind": "TypeNominal",
-                              "name": "_ConditionalContent",
-                              "printedName": "SwiftUI._ConditionalContent<SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>, SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>>",
-                              "children": [
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "_ConditionalContent",
-                                  "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.AccountView, DesignCodeIOS.HexagonView>",
-                                  "children": [
-                                    {
-                                      "kind": "TypeNominal",
-                                      "name": "AccountView",
-                                      "printedName": "DesignCodeIOS.AccountView",
-                                      "usr": "s:13DesignCodeIOS11AccountViewV"
-                                    },
-                                    {
-                                      "kind": "TypeNominal",
-                                      "name": "HexagonView",
-                                      "printedName": "DesignCodeIOS.HexagonView",
-                                      "usr": "s:13DesignCodeIOS11HexagonViewV"
-                                    }
-                                  ],
-                                  "usr": "s:7SwiftUI19_ConditionalContentV"
-                                },
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "_ConditionalContent",
-                                  "printedName": "SwiftUI._ConditionalContent<DesignCodeIOS.BlobView, DesignCodeIOS.SecondView>",
-                                  "children": [
-                                    {
-                                      "kind": "TypeNominal",
-                                      "name": "BlobView",
-                                      "printedName": "DesignCodeIOS.BlobView",
-                                      "usr": "s:13DesignCodeIOS8BlobViewV"
-                                    },
-                                    {
-                                      "kind": "TypeNominal",
-                                      "name": "SecondView",
-                                      "printedName": "DesignCodeIOS.SecondView",
-                                      "usr": "s:13DesignCodeIOS10SecondViewV"
-                                    }
-                                  ],
-                                  "usr": "s:7SwiftUI19_ConditionalContentV"
-                                }
-                              ],
-                              "usr": "s:7SwiftUI19_ConditionalContentV"
-                            },
-                            {
-                              "kind": "TypeNominal",
-                              "name": "ModifiedContent",
-                              "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUI._FlexFrameLayout>",
-                              "children": [
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "GenericTypeParam",
-                                  "printedName": "τ_0_0"
-                                },
-                                {
-                                  "kind": "TypeNominal",
-                                  "name": "_FlexFrameLayout",
-                                  "printedName": "SwiftUI._FlexFrameLayout",
-                                  "usr": "s:7SwiftUI16_FlexFrameLayoutV"
-                                }
-                              ],
-                              "usr": "s:7SwiftUI15ModifiedContentV"
-                            }
-                          ]
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "_FlexFrameLayout",
+                          "printedName": "SwiftUI._FlexFrameLayout",
+                          "usr": "s:7SwiftUI16_FlexFrameLayoutV"
                         }
                       ],
-                      "usr": "s:7SwiftUI9TupleViewV"
+                      "usr": "s:7SwiftUI15ModifiedContentV"
                     }
                   ],
                   "usr": "s:7SwiftUI6ZStackV"
@@ -4414,8 +4629,8 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "TabView_Previews",
-      "printedName": "TabView_Previews",
+      "name": "TabBar_Previews",
+      "printedName": "TabBar_Previews",
       "children": [
         {
           "kind": "Var",
@@ -4424,14 +4639,14 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "TabView",
-              "printedName": "DesignCodeIOS.TabView",
-              "usr": "s:13DesignCodeIOS7TabViewV"
+              "name": "TabBar",
+              "printedName": "DesignCodeIOS.TabBar",
+              "usr": "s:13DesignCodeIOS6TabBarV"
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS16TabView_PreviewsV8previewsQrvpZ",
-          "mangledName": "$s13DesignCodeIOS16TabView_PreviewsV8previewsQrvpZ",
+          "usr": "s:13DesignCodeIOS15TabBar_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13DesignCodeIOS15TabBar_PreviewsV8previewsQrvpZ",
           "moduleName": "DesignCodeIOS",
           "static": true,
           "declAttributes": [
@@ -4445,14 +4660,14 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "TabView",
-                  "printedName": "DesignCodeIOS.TabView",
-                  "usr": "s:13DesignCodeIOS7TabViewV"
+                  "name": "TabBar",
+                  "printedName": "DesignCodeIOS.TabBar",
+                  "usr": "s:13DesignCodeIOS6TabBarV"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS16TabView_PreviewsV8previewsQrvgZ",
-              "mangledName": "$s13DesignCodeIOS16TabView_PreviewsV8previewsQrvgZ",
+              "usr": "s:13DesignCodeIOS15TabBar_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13DesignCodeIOS15TabBar_PreviewsV8previewsQrvgZ",
               "moduleName": "DesignCodeIOS",
               "static": true,
               "accessorKind": "get"
@@ -4466,14 +4681,14 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "TabView_Previews",
-              "printedName": "DesignCodeIOS.TabView_Previews",
-              "usr": "s:13DesignCodeIOS16TabView_PreviewsV"
+              "name": "TabBar_Previews",
+              "printedName": "DesignCodeIOS.TabBar_Previews",
+              "usr": "s:13DesignCodeIOS15TabBar_PreviewsV"
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:13DesignCodeIOS16TabView_PreviewsVACycfc",
-          "mangledName": "$s13DesignCodeIOS16TabView_PreviewsVACycfc",
+          "usr": "s:13DesignCodeIOS15TabBar_PreviewsVACycfc",
+          "mangledName": "$s13DesignCodeIOS15TabBar_PreviewsVACycfc",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "declAttributes": [
@@ -4483,8 +4698,8 @@
         }
       ],
       "declKind": "Struct",
-      "usr": "s:13DesignCodeIOS16TabView_PreviewsV",
-      "mangledName": "$s13DesignCodeIOS16TabView_PreviewsV",
+      "usr": "s:13DesignCodeIOS15TabBar_PreviewsV",
+      "mangledName": "$s13DesignCodeIOS15TabBar_PreviewsV",
       "moduleName": "DesignCodeIOS",
       "declAttributes": [
         "Custom"
@@ -4509,9 +4724,9 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "TabView",
-                  "printedName": "DesignCodeIOS.TabView",
-                  "usr": "s:13DesignCodeIOS7TabViewV"
+                  "name": "TabBar",
+                  "printedName": "DesignCodeIOS.TabBar",
+                  "usr": "s:13DesignCodeIOS6TabBarV"
                 }
               ]
             }

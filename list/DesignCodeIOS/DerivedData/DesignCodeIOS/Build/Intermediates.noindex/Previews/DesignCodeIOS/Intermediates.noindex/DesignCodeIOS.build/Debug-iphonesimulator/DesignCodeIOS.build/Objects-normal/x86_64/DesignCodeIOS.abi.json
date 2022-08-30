@@ -1408,6 +1408,272 @@
       "children": [
         {
           "kind": "Var",
+          "name": "selectedTab",
+          "printedName": "selectedTab",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Tab",
+              "printedName": "DesignCodeIOS.Tab",
+              "usr": "s:13DesignCodeIOS3TabO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovp",
+          "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Dynamic",
+            "ProjectedValueProperty",
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tab",
+                  "printedName": "DesignCodeIOS.Tab",
+                  "usr": "s:13DesignCodeIOS3TabO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovg",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tab",
+                  "printedName": "DesignCodeIOS.Tab",
+                  "usr": "s:13DesignCodeIOS3TabO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovs",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAA0G0Ovs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAA0G0OvM",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAA0G0OvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "$selectedTab",
+          "printedName": "$selectedTab",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Binding",
+              "printedName": "SwiftUI.Binding<DesignCodeIOS.Tab>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tab",
+                  "printedName": "DesignCodeIOS.Tab",
+                  "usr": "s:13DesignCodeIOS3TabO"
+                }
+              ],
+              "usr": "s:7SwiftUI7BindingV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11ContentViewV12$selectedTab7SwiftUI7BindingVyAA0G0OGvp",
+          "mangledName": "$s13DesignCodeIOS11ContentViewV12$selectedTab7SwiftUI7BindingVyAA0G0OGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Binding",
+                  "printedName": "SwiftUI.Binding<DesignCodeIOS.Tab>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tab",
+                      "printedName": "DesignCodeIOS.Tab",
+                      "usr": "s:13DesignCodeIOS3TabO"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI7BindingV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV12$selectedTab7SwiftUI7BindingVyAA0G0OGvg",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV12$selectedTab7SwiftUI7BindingVyAA0G0OGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_selectedTab",
+          "printedName": "_selectedTab",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppStorage",
+              "printedName": "SwiftUI.AppStorage<DesignCodeIOS.Tab>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Tab",
+                  "printedName": "DesignCodeIOS.Tab",
+                  "usr": "s:13DesignCodeIOS3TabO"
+                }
+              ],
+              "usr": "s:7SwiftUI10AppStorageV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvp",
+          "mangledName": "$s13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvp",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppStorage",
+                  "printedName": "SwiftUI.AppStorage<DesignCodeIOS.Tab>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tab",
+                      "printedName": "DesignCodeIOS.Tab",
+                      "usr": "s:13DesignCodeIOS3TabO"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI10AppStorageV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvg",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "AppStorage",
+                  "printedName": "SwiftUI.AppStorage<DesignCodeIOS.Tab>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tab",
+                      "printedName": "DesignCodeIOS.Tab",
+                      "usr": "s:13DesignCodeIOS3TabO"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI10AppStorageV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvs",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvM",
+              "mangledName": "$s13DesignCodeIOS11ContentViewV12_selectedTab33_B87C34095631B6C75C0683A86E734C7DLL7SwiftUI10AppStorageVyAA0G0OGvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
           "name": "body",
           "printedName": "body",
           "children": [
@@ -1471,6 +1737,35 @@
             "Dynamic"
           ],
           "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selectedTab:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "DesignCodeIOS.ContentView",
+              "usr": "s:13DesignCodeIOS11ContentViewV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Tab",
+              "printedName": "DesignCodeIOS.Tab",
+              "hasDefaultArg": true,
+              "usr": "s:13DesignCodeIOS3TabO"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS11ContentViewV11selectedTabAcA0G0O_tcfc",
+          "mangledName": "$s13DesignCodeIOS11ContentViewV11selectedTabAcA0G0O_tcfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
         }
       ],
       "declKind": "Struct",
@@ -1499,13 +1794,6 @@
           ],
           "usr": "s:7SwiftUI4ViewP",
           "mangledName": "$s7SwiftUI4ViewP"
-        },
-        {
-          "kind": "Conformance",
-          "name": "Sendable",
-          "printedName": "Sendable",
-          "usr": "s:s8SendableP",
-          "mangledName": "$ss8SendableP"
         }
       ]
     },
@@ -3594,8 +3882,8 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "State",
-              "printedName": "SwiftUI.State<DesignCodeIOS.Tab>",
+              "name": "AppStorage",
+              "printedName": "SwiftUI.AppStorage<DesignCodeIOS.Tab>",
               "children": [
                 {
                   "kind": "TypeNominal",
@@ -3604,12 +3892,12 @@
                   "usr": "s:13DesignCodeIOS3TabO"
                 }
               ],
-              "usr": "s:7SwiftUI5StateV"
+              "usr": "s:7SwiftUI10AppStorageV"
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvp",
+          "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvp",
+          "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "declAttributes": [
@@ -3626,8 +3914,8 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "State",
-                  "printedName": "SwiftUI.State<DesignCodeIOS.Tab>",
+                  "name": "AppStorage",
+                  "printedName": "SwiftUI.AppStorage<DesignCodeIOS.Tab>",
                   "children": [
                     {
                       "kind": "TypeNominal",
@@ -3636,12 +3924,12 @@
                       "usr": "s:13DesignCodeIOS3TabO"
                     }
                   ],
-                  "usr": "s:7SwiftUI5StateV"
+                  "usr": "s:7SwiftUI10AppStorageV"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvg",
+              "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvg",
+              "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -3661,8 +3949,8 @@
                 },
                 {
                   "kind": "TypeNominal",
-                  "name": "State",
-                  "printedName": "SwiftUI.State<DesignCodeIOS.Tab>",
+                  "name": "AppStorage",
+                  "printedName": "SwiftUI.AppStorage<DesignCodeIOS.Tab>",
                   "children": [
                     {
                       "kind": "TypeNominal",
@@ -3671,12 +3959,12 @@
                       "usr": "s:13DesignCodeIOS3TabO"
                     }
                   ],
-                  "usr": "s:7SwiftUI5StateV"
+                  "usr": "s:7SwiftUI10AppStorageV"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvs",
+              "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvs",
+              "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -3696,8 +3984,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAA0D0OGvM",
+              "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvM",
+              "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
