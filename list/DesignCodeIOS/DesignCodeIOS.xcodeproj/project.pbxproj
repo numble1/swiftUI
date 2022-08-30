@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03607CD28BDAFDE00C918C0 /* FeatureItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03607CC28BDAFDE00C918C0 /* FeatureItem.swift */; };
+		A03607CF28BDB33500C918C0 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03607CE28BDB33500C918C0 /* NavigationBar.swift */; };
 		A05CC3C828B766F20045A0FB /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05CC3C728B766F20045A0FB /* Tab.swift */; };
 		A0995BCC28B36D7900E441F7 /* DesignCodeIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995BCB28B36D7900E441F7 /* DesignCodeIOSApp.swift */; };
 		A0995BCE28B36D7900E441F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0995BCD28B36D7900E441F7 /* ContentView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03607CC28BDAFDE00C918C0 /* FeatureItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureItem.swift; sourceTree = "<group>"; };
+		A03607CE28BDB33500C918C0 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		A05CC3C728B766F20045A0FB /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		A0995BC828B36D7900E441F7 /* DesignCodeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0995BCB28B36D7900E441F7 /* DesignCodeIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeIOSApp.swift; sourceTree = "<group>"; };
@@ -89,10 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				A0995BCD28B36D7900E441F7 /* ContentView.swift */,
-				A0995BDB28B386D200E441F7 /* SecondView.swift */,
-				A0F6765228B47E1E000DC9DE /* BlobView.swift */,
-				A0F6765028B46F37000DC9DE /* HexagonView.swift */,
-				A0995BD928B36DD400E441F7 /* AccountView.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -100,6 +100,10 @@
 		A0D1299428BD9CD800FE7F24 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A0995BDB28B386D200E441F7 /* SecondView.swift */,
+				A0F6765228B47E1E000DC9DE /* BlobView.swift */,
+				A0F6765028B46F37000DC9DE /* HexagonView.swift */,
+				A0995BD928B36DD400E441F7 /* AccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				A0ECF7CA28BC55BE00F62880 /* TabBar.swift */,
+				A03607CC28BDAFDE00C918C0 /* FeatureItem.swift */,
+				A03607CE28BDB33500C918C0 /* NavigationBar.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -201,7 +207,9 @@
 				A0995BDA28B36DD400E441F7 /* AccountView.swift in Sources */,
 				A0995BDE28B386DB00E441F7 /* Styles.swift in Sources */,
 				A0995BCE28B36D7900E441F7 /* ContentView.swift in Sources */,
+				A03607CD28BDAFDE00C918C0 /* FeatureItem.swift in Sources */,
 				A05CC3C828B766F20045A0FB /* Tab.swift in Sources */,
+				A03607CF28BDB33500C918C0 /* NavigationBar.swift in Sources */,
 				A0995BDC28B386D200E441F7 /* SecondView.swift in Sources */,
 				A0995BCC28B36D7900E441F7 /* DesignCodeIOSApp.swift in Sources */,
 				A0F6765128B46F37000DC9DE /* HexagonView.swift in Sources */,

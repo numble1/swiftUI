@@ -1941,6 +1941,256 @@
     },
     {
       "kind": "TypeDecl",
+      "name": "FeatureItem",
+      "printedName": "FeatureItem",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS11FeatureItemV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS11FeatureItemV4bodyQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS11FeatureItemV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS11FeatureItemV4bodyQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FeatureItem",
+              "printedName": "DesignCodeIOS.FeatureItem",
+              "usr": "s:13DesignCodeIOS11FeatureItemV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS11FeatureItemVACycfc",
+          "mangledName": "$s13DesignCodeIOS11FeatureItemVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS11FeatureItemV",
+      "mangledName": "$s13DesignCodeIOS11FeatureItemV",
+      "moduleName": "DesignCodeIOS",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FeatureItem_Previews",
+      "printedName": "FeatureItem_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS20FeatureItem_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13DesignCodeIOS20FeatureItem_PreviewsV8previewsQrvpZ",
+          "moduleName": "DesignCodeIOS",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS20FeatureItem_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13DesignCodeIOS20FeatureItem_PreviewsV8previewsQrvgZ",
+              "moduleName": "DesignCodeIOS",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FeatureItem_Previews",
+              "printedName": "DesignCodeIOS.FeatureItem_Previews",
+              "usr": "s:13DesignCodeIOS20FeatureItem_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS20FeatureItem_PreviewsVACycfc",
+          "mangledName": "$s13DesignCodeIOS20FeatureItem_PreviewsVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS20FeatureItem_PreviewsV",
+      "mangledName": "$s13DesignCodeIOS20FeatureItem_PreviewsV",
+      "moduleName": "DesignCodeIOS",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "TypeDecl",
       "name": "TabItem",
       "printedName": "TabItem",
       "children": [
@@ -3047,6 +3297,380 @@
     },
     {
       "kind": "TypeDecl",
+      "name": "NavigationBar",
+      "printedName": "NavigationBar",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "title",
+          "printedName": "title",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS13NavigationBarV5titleSSvp",
+          "mangledName": "$s13DesignCodeIOS13NavigationBarV5titleSSvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS13NavigationBarV5titleSSvg",
+              "mangledName": "$s13DesignCodeIOS13NavigationBarV5titleSSvg",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS13NavigationBarV5titleSSvs",
+              "mangledName": "$s13DesignCodeIOS13NavigationBarV5titleSSvs",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS13NavigationBarV5titleSSvM",
+              "mangledName": "$s13DesignCodeIOS13NavigationBarV5titleSSvM",
+              "moduleName": "DesignCodeIOS",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS13NavigationBarV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS13NavigationBarV4bodyQrvp",
+          "moduleName": "DesignCodeIOS",
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS13NavigationBarV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS13NavigationBarV4bodyQrvg",
+              "moduleName": "DesignCodeIOS",
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NavigationBar",
+              "printedName": "DesignCodeIOS.NavigationBar",
+              "usr": "s:13DesignCodeIOS13NavigationBarV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS13NavigationBarVACycfc",
+          "mangledName": "$s13DesignCodeIOS13NavigationBarVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(title:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NavigationBar",
+              "printedName": "DesignCodeIOS.NavigationBar",
+              "usr": "s:13DesignCodeIOS13NavigationBarV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS13NavigationBarV5titleACSS_tcfc",
+          "mangledName": "$s13DesignCodeIOS13NavigationBarV5titleACSS_tcfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS13NavigationBarV",
+      "mangledName": "$s13DesignCodeIOS13NavigationBarV",
+      "moduleName": "DesignCodeIOS",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NavigationBar_Previews",
+      "printedName": "NavigationBar_Previews",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "previews",
+          "printedName": "previews",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyView",
+              "printedName": "SwiftUI.AnyView",
+              "usr": "s:7SwiftUI7AnyViewV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:13DesignCodeIOS22NavigationBar_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13DesignCodeIOS22NavigationBar_PreviewsV8previewsQrvpZ",
+          "moduleName": "DesignCodeIOS",
+          "static": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:13DesignCodeIOS22NavigationBar_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13DesignCodeIOS22NavigationBar_PreviewsV8previewsQrvgZ",
+              "moduleName": "DesignCodeIOS",
+              "static": true,
+              "declAttributes": [
+                "Dynamic"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NavigationBar_Previews",
+              "printedName": "DesignCodeIOS.NavigationBar_Previews",
+              "usr": "s:13DesignCodeIOS22NavigationBar_PreviewsV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:13DesignCodeIOS22NavigationBar_PreviewsVACycfc",
+          "mangledName": "$s13DesignCodeIOS22NavigationBar_PreviewsVACycfc",
+          "moduleName": "DesignCodeIOS",
+          "implicit": true,
+          "declAttributes": [
+            "Custom",
+            "Dynamic"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:13DesignCodeIOS22NavigationBar_PreviewsV",
+      "mangledName": "$s13DesignCodeIOS22NavigationBar_PreviewsV",
+      "moduleName": "DesignCodeIOS",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PreviewProvider",
+          "printedName": "PreviewProvider",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Previews",
+              "printedName": "Previews",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyView",
+                  "printedName": "SwiftUI.AnyView",
+                  "usr": "s:7SwiftUI7AnyViewV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI15PreviewProviderP",
+          "mangledName": "$s7SwiftUI15PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_PreviewProvider",
+          "printedName": "_PreviewProvider",
+          "usr": "s:7SwiftUI16_PreviewProviderP",
+          "mangledName": "$s7SwiftUI16_PreviewProviderP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "DesignCodeIOS"
+    },
+    {
+      "kind": "TypeDecl",
       "name": "SecondView",
       "printedName": "SecondView",
       "children": [
@@ -3726,8 +4350,8 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "TabView",
-      "printedName": "TabView",
+      "name": "TabBar",
+      "printedName": "TabBar",
       "children": [
         {
           "kind": "Var",
@@ -3742,8 +4366,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovp",
+          "usr": "s:13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "Dynamic",
@@ -3764,8 +4388,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovg",
+              "usr": "s:13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -3791,8 +4415,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD0AA0D0Ovs",
+              "usr": "s:13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovs",
+              "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD0AA0D0Ovs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -3812,8 +4436,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV08selectedD0AA0D0OvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD0AA0D0OvM",
+              "usr": "s:13DesignCodeIOS6TabBarV08selectedD0AA0D0OvM",
+              "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD0AA0D0OvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "_modify"
@@ -3841,8 +4465,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV09$selectedD07SwiftUI7BindingVyAA0D0OGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV09$selectedD07SwiftUI7BindingVyAA0D0OGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV09$selectedD07SwiftUI7BindingVyAA0D0OGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV09$selectedD07SwiftUI7BindingVyAA0D0OGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "accessors": [
@@ -3867,8 +4491,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV09$selectedD07SwiftUI7BindingVyAA0D0OGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV09$selectedD07SwiftUI7BindingVyAA0D0OGvg",
+              "usr": "s:13DesignCodeIOS6TabBarV09$selectedD07SwiftUI7BindingVyAA0D0OGvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV09$selectedD07SwiftUI7BindingVyAA0D0OGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "get"
@@ -3896,8 +4520,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "declAttributes": [
@@ -3928,8 +4552,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvg",
+              "usr": "s:13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -3963,8 +4587,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvs",
+              "usr": "s:13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvs",
+              "mangledName": "$s13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -3984,8 +4608,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV09_selectedD033_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI10AppStorageVyAA0D0OGvM",
+              "usr": "s:13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvM",
+              "mangledName": "$s13DesignCodeIOS6TabBarV09_selectedD033_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI10AppStorageVyAA0D0OGvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4008,8 +4632,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvp",
+          "usr": "s:13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "Dynamic",
@@ -4030,8 +4654,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvg",
+              "usr": "s:13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4057,8 +4681,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0Vvs",
+              "usr": "s:13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvs",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0Vvs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4078,8 +4702,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0VvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13selectedColor7SwiftUI0G0VvM",
+              "usr": "s:13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0VvM",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13selectedColor7SwiftUI0G0VvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "_modify"
@@ -4107,8 +4731,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV14$selectedColor7SwiftUI7BindingVyAE0G0VGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV14$selectedColor7SwiftUI7BindingVyAE0G0VGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV14$selectedColor7SwiftUI7BindingVyAE0G0VGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV14$selectedColor7SwiftUI7BindingVyAE0G0VGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "accessors": [
@@ -4133,8 +4757,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV14$selectedColor7SwiftUI7BindingVyAE0G0VGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV14$selectedColor7SwiftUI7BindingVyAE0G0VGvg",
+              "usr": "s:13DesignCodeIOS6TabBarV14$selectedColor7SwiftUI7BindingVyAE0G0VGvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV14$selectedColor7SwiftUI7BindingVyAE0G0VGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "get"
@@ -4162,8 +4786,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "declAttributes": [
@@ -4194,8 +4818,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvg",
+              "usr": "s:13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4229,8 +4853,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvs",
+              "usr": "s:13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvs",
+              "mangledName": "$s13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4250,8 +4874,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV14_selectedColor33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVyAF0G0VGvM",
+              "usr": "s:13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvM",
+              "mangledName": "$s13DesignCodeIOS6TabBarV14_selectedColor33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVyAF0G0VGvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4274,8 +4898,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvp",
+          "usr": "s:13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "Dynamic",
@@ -4296,8 +4920,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvg",
+              "usr": "s:13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4323,8 +4947,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvs",
+              "usr": "s:13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvs",
+              "mangledName": "$s13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4344,8 +4968,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV12tabItemWidth12CoreGraphics7CGFloatVvM",
+              "usr": "s:13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvM",
+              "mangledName": "$s13DesignCodeIOS6TabBarV12tabItemWidth12CoreGraphics7CGFloatVvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "_modify"
@@ -4373,8 +4997,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "accessors": [
@@ -4399,8 +5023,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
+              "usr": "s:13DesignCodeIOS6TabBarV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13$tabItemWidth7SwiftUI7BindingVy12CoreGraphics7CGFloatVGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "accessorKind": "get"
@@ -4428,8 +5052,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
+          "usr": "s:13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvp",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "declAttributes": [
@@ -4460,8 +5084,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvg",
+              "usr": "s:13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvg",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4495,8 +5119,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvs",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvs",
+              "usr": "s:13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvs",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvs",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4516,8 +5140,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvM",
-              "mangledName": "$s13DesignCodeIOS7TabViewV13_tabItemWidth33_C1DA39F8DE697CEA777CC9BA60CD6E1DLL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvM",
+              "usr": "s:13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvM",
+              "mangledName": "$s13DesignCodeIOS6TabBarV13_tabItemWidth33_0773D61144A08897744D27CD6FC2F27ALL7SwiftUI5StateVy12CoreGraphics7CGFloatVGvM",
               "moduleName": "DesignCodeIOS",
               "implicit": true,
               "declAttributes": [
@@ -4540,8 +5164,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV4bodyQrvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV4bodyQrvp",
+          "usr": "s:13DesignCodeIOS6TabBarV4bodyQrvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV4bodyQrvp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "Custom",
@@ -4561,8 +5185,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV4bodyQrvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV4bodyQrvg",
+              "usr": "s:13DesignCodeIOS6TabBarV4bodyQrvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV4bodyQrvg",
               "moduleName": "DesignCodeIOS",
               "declAttributes": [
                 "Dynamic"
@@ -4584,8 +5208,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV10backgroundQrvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV10backgroundQrvp",
+          "usr": "s:13DesignCodeIOS6TabBarV10backgroundQrvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV10backgroundQrvp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "Dynamic"
@@ -4604,8 +5228,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV10backgroundQrvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV10backgroundQrvg",
+              "usr": "s:13DesignCodeIOS6TabBarV10backgroundQrvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV10backgroundQrvg",
               "moduleName": "DesignCodeIOS",
               "declAttributes": [
                 "Dynamic"
@@ -4627,8 +5251,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV9topSliderQrvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV9topSliderQrvp",
+          "usr": "s:13DesignCodeIOS6TabBarV9topSliderQrvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV9topSliderQrvp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "Dynamic"
@@ -4647,8 +5271,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV9topSliderQrvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV9topSliderQrvg",
+              "usr": "s:13DesignCodeIOS6TabBarV9topSliderQrvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV9topSliderQrvg",
               "moduleName": "DesignCodeIOS",
               "declAttributes": [
                 "Dynamic"
@@ -4670,8 +5294,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS7TabViewV7buttonsQrvp",
-          "mangledName": "$s13DesignCodeIOS7TabViewV7buttonsQrvp",
+          "usr": "s:13DesignCodeIOS6TabBarV7buttonsQrvp",
+          "mangledName": "$s13DesignCodeIOS6TabBarV7buttonsQrvp",
           "moduleName": "DesignCodeIOS",
           "declAttributes": [
             "Dynamic"
@@ -4690,8 +5314,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS7TabViewV7buttonsQrvg",
-              "mangledName": "$s13DesignCodeIOS7TabViewV7buttonsQrvg",
+              "usr": "s:13DesignCodeIOS6TabBarV7buttonsQrvg",
+              "mangledName": "$s13DesignCodeIOS6TabBarV7buttonsQrvg",
               "moduleName": "DesignCodeIOS",
               "declAttributes": [
                 "Dynamic"
@@ -4707,14 +5331,14 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "TabView",
-              "printedName": "DesignCodeIOS.TabView",
-              "usr": "s:13DesignCodeIOS7TabViewV"
+              "name": "TabBar",
+              "printedName": "DesignCodeIOS.TabBar",
+              "usr": "s:13DesignCodeIOS6TabBarV"
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:13DesignCodeIOS7TabViewVACycfc",
-          "mangledName": "$s13DesignCodeIOS7TabViewVACycfc",
+          "usr": "s:13DesignCodeIOS6TabBarVACycfc",
+          "mangledName": "$s13DesignCodeIOS6TabBarVACycfc",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "declAttributes": [
@@ -4729,9 +5353,9 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "TabView",
-              "printedName": "DesignCodeIOS.TabView",
-              "usr": "s:13DesignCodeIOS7TabViewV"
+              "name": "TabBar",
+              "printedName": "DesignCodeIOS.TabBar",
+              "usr": "s:13DesignCodeIOS6TabBarV"
             },
             {
               "kind": "TypeNominal",
@@ -4756,8 +5380,8 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:13DesignCodeIOS7TabViewV08selectedD00F5Color12tabItemWidthAcA0D0O_7SwiftUI0G0V12CoreGraphics7CGFloatVtcfc",
-          "mangledName": "$s13DesignCodeIOS7TabViewV08selectedD00F5Color12tabItemWidthAcA0D0O_7SwiftUI0G0V12CoreGraphics7CGFloatVtcfc",
+          "usr": "s:13DesignCodeIOS6TabBarV08selectedD00F5Color12tabItemWidthAcA0D0O_7SwiftUI0G0V12CoreGraphics7CGFloatVtcfc",
+          "mangledName": "$s13DesignCodeIOS6TabBarV08selectedD00F5Color12tabItemWidthAcA0D0O_7SwiftUI0G0V12CoreGraphics7CGFloatVtcfc",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "declAttributes": [
@@ -4767,8 +5391,8 @@
         }
       ],
       "declKind": "Struct",
-      "usr": "s:13DesignCodeIOS7TabViewV",
-      "mangledName": "$s13DesignCodeIOS7TabViewV",
+      "usr": "s:13DesignCodeIOS6TabBarV",
+      "mangledName": "$s13DesignCodeIOS6TabBarV",
       "moduleName": "DesignCodeIOS",
       "conformances": [
         {
@@ -4797,8 +5421,8 @@
     },
     {
       "kind": "TypeDecl",
-      "name": "TabView_Previews",
-      "printedName": "TabView_Previews",
+      "name": "TabBar_Previews",
+      "printedName": "TabBar_Previews",
       "children": [
         {
           "kind": "Var",
@@ -4813,8 +5437,8 @@
             }
           ],
           "declKind": "Var",
-          "usr": "s:13DesignCodeIOS16TabView_PreviewsV8previewsQrvpZ",
-          "mangledName": "$s13DesignCodeIOS16TabView_PreviewsV8previewsQrvpZ",
+          "usr": "s:13DesignCodeIOS15TabBar_PreviewsV8previewsQrvpZ",
+          "mangledName": "$s13DesignCodeIOS15TabBar_PreviewsV8previewsQrvpZ",
           "moduleName": "DesignCodeIOS",
           "static": true,
           "declAttributes": [
@@ -4835,8 +5459,8 @@
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:13DesignCodeIOS16TabView_PreviewsV8previewsQrvgZ",
-              "mangledName": "$s13DesignCodeIOS16TabView_PreviewsV8previewsQrvgZ",
+              "usr": "s:13DesignCodeIOS15TabBar_PreviewsV8previewsQrvgZ",
+              "mangledName": "$s13DesignCodeIOS15TabBar_PreviewsV8previewsQrvgZ",
               "moduleName": "DesignCodeIOS",
               "static": true,
               "declAttributes": [
@@ -4853,14 +5477,14 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "TabView_Previews",
-              "printedName": "DesignCodeIOS.TabView_Previews",
-              "usr": "s:13DesignCodeIOS16TabView_PreviewsV"
+              "name": "TabBar_Previews",
+              "printedName": "DesignCodeIOS.TabBar_Previews",
+              "usr": "s:13DesignCodeIOS15TabBar_PreviewsV"
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:13DesignCodeIOS16TabView_PreviewsVACycfc",
-          "mangledName": "$s13DesignCodeIOS16TabView_PreviewsVACycfc",
+          "usr": "s:13DesignCodeIOS15TabBar_PreviewsVACycfc",
+          "mangledName": "$s13DesignCodeIOS15TabBar_PreviewsVACycfc",
           "moduleName": "DesignCodeIOS",
           "implicit": true,
           "declAttributes": [
@@ -4871,8 +5495,8 @@
         }
       ],
       "declKind": "Struct",
-      "usr": "s:13DesignCodeIOS16TabView_PreviewsV",
-      "mangledName": "$s13DesignCodeIOS16TabView_PreviewsV",
+      "usr": "s:13DesignCodeIOS15TabBar_PreviewsV",
+      "mangledName": "$s13DesignCodeIOS15TabBar_PreviewsV",
       "moduleName": "DesignCodeIOS",
       "declAttributes": [
         "Custom"

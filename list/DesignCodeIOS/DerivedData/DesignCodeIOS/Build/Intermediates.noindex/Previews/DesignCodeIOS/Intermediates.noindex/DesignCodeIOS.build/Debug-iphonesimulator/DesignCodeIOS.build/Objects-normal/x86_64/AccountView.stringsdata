@@ -1,7 +1,11 @@
 {
-  "source": "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Navigation/AccountView.swift",
+  "source": "/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Views/AccountView.swift",
   "tables": {
     "Localizable": [
+      {
+        "comment": "",
+        "key": "Account"
+      },
       {
         "comment": "",
         "key": "Settings"

@@ -1,9 +1,11 @@
-/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Navigation/AccountView.swift
+/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Views/AccountView.swift
 /Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Styles/Styles.swift
 /Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Navigation/ContentView.swift
+/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Components/FeatureItem.swift
 /Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Model/Tab.swift
-/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Navigation/SecondView.swift
+/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Components/NavigationBar.swift
+/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Views/SecondView.swift
 /Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/DesignCodeIOSApp.swift
-/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Navigation/HexagonView.swift
+/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Views/HexagonView.swift
 /Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Components/TabBar.swift
-/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Navigation/BlobView.swift
+/Users/wangjie/Desktop/AppForiOS15/list/DesignCodeIOS/DesignCodeIOS/Views/BlobView.swift
